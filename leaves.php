@@ -31,6 +31,24 @@ $team_leave_details = $objPortal->team_leave_details();
             <div class="row">
                 <div class="col-lg-12">
                     <div class="panel panel-default">
+                        <div class="panel-heading">My Leaves</div>
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                            <?php echo $emp_leave_total_details ?>
+                                            <?php echo $emp_leave_details ?>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<?php
+/*
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="panel panel-default">
                         <div class="panel-heading">
                             Leave Details
                         </div>
@@ -61,18 +79,19 @@ $team_leave_details = $objPortal->team_leave_details();
                 </div>
                 <!-- /.col-lg-6 -->
             </div>
+*/
+?>
 <?php
 include_once("fotter.php");
-$html ='<script>
-$("#team_leave").click(function() {
-    $(".team_view_leaves").DataTable({
-        responsive: true
-    });
-console.log("test1");
-});
-console.log("test");
-</script>';
-return $html;
+
+$html ='<script type="text/javascript">
+            $(document).ready(function () {
+                $("#total_leaves").DataTable({
+                    responsive: true
+                });
+            });
+        </script>';
+echo $html;
 
 }
 ?>

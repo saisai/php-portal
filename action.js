@@ -1,3 +1,48 @@
+var show_notification = function (msg,cls){
+	$("#notification_msg").html("&nbsp;"+msg+"&nbsp;");
+	$(".notification_box").slideDown("slow");
+	$("#notification_msg").addClass("alert-"+cls);
+	setTimeout("hide_notification('"+cls+"')",2000);
+};
+
+var hide_notification = function(cls){
+	$(".notification_box").slideUp("slow");
+	$("#notification_msg").removeClass("alert-"+cls);
+};
+
+$("#update_password").click(function(){
+	var getJsonData =  {
+			className 	: "Portal",
+			methodName 	: "update_user_password",
+			new_password : $("#new_password").val()
+	};
+	var data = JSON.stringify(getJsonData);
+	$.post("ajaxpage.php",{submit : "commonAction",data:data},
+	function(data)
+	{
+		console.log(data)
+	});
+});
+
+/*
+$('#my_settings_form').validator().on('submit', function (e) {
+  if (e.isDefaultPrevented()) {
+    // handle the invalid form...
+    console.log("some error is there");
+  } else {
+	var getJsonData =  {
+		className 	: "Portal",
+		methodName 	: "update_user_password",
+		new_password : $("#new_password").val()
+	};
+	var data = JSON.stringify(getJsonData);
+	$.post("ajaxpage.php",{submit : "commonAction",data:data},function(data){
+		console.log(data)
+	});
+  }
+})
+*/
+
 $('#selected_all_box').click(function(event) {  //on click
     if(this.checked) { // check select status
         $('.get_selected_box').each(function() { //loop through each checkbox
@@ -36,37 +81,37 @@ var days_between = function (start_date, end_Date) {
 	var timeDifferenceInDays = timeDifferenceInHours  / 24;
 
 	return(timeDifferenceInDays);
-}
+};
 
 $("#apply_leave").click(function(){
 	/*if($("#start_date").val() == ""){
-		showAlertMessage("Please enter start date","error");
+		show_notification("Please enter start date","danger");
 		return false;
 	}
 
 	if($("#end_date").val() == ""){
-		showAlertMessage("Please enter End date","error");
+		show_notification("Please enter End date","danger");
 		return false;
 	}
 
 	if($("#leave_types").val() == ""){
-		showAlertMessage("Please Select leave type","error");
+		show_notification("Please Select leave type","danger");
 		return false;
 	}
 
 	if($("#leave_days").val() == ""){
-		showAlertMessage("Please enter leave days","error");
+		show_notification("Please enter leave days","danger");
 		return false;
 	}
 
 	if($("#leave_remarks").val() == ""){
-		showAlertMessage("Please enter remarks","error");
+		show_notification("Please enter remarks","danger");
 		return false;
 	}
 
 	var date_diff = (days_between()+1)
 	if($("#leave_days").val() != date_diff){
-		showAlertMessage("Please Check your Dates","error");
+		show_notification("Please Check your Dates","danger");
 		return false;
 	}*/
 
@@ -84,11 +129,11 @@ $("#apply_leave").click(function(){
 		function(data)
 		{
 			/*if(data == 1){
-				showAlertMessage("Post successfully","notify");
+				show_notification("Post successfully","success");
 				$("#dialog").dialog("destroy");
 				objReport.renderReport();
 			}else{
-				showAlertMessage("Server Connection Problem...Try again","error");
+				show_notification("Server Connection Problem...Try again","danger");
 			}
 			removeLoading();*/
 			console.log(data);
@@ -107,7 +152,7 @@ var get_selected_members = function (){
 
 var save_team_leave_status = function (slno,status){
 		/*if($("#action_status").val() == ""){
-			showAlertMessage("Please Select Any action","error");
+			show_notification("Please Select Any action","danger");
 			return false;
 		}
 		*/
@@ -123,11 +168,11 @@ var save_team_leave_status = function (slno,status){
 		function(data)
 		{
 			/*if(data == 1){
-				showAlertMessage("Post successfully","notify");
+				show_notification("Post successfully","success");
 				$("#dialog").dialog("destroy");
 				objReport.renderReport();
 			}else{
-				showAlertMessage("Server Connection Problem...Try again","error");
+				show_notification("Server Connection Problem...Try again","danger");
 			}*/
 			console.log(data);
 		});
@@ -136,7 +181,7 @@ var save_team_leave_status = function (slno,status){
 $("#leave_approve").click(function(){
 	var slno = get_selected_members ();
 	/*if(slno.length  ==  "0") {
-		showAlertMessage("Please Select Atleast one","error");
+		show_notification("Please Select Atleast one","danger");
 		return false;
 	}*/
 	save_team_leave_status (slno,"APPROVED");

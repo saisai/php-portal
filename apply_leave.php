@@ -11,6 +11,9 @@ include_once("header.php");
 include_once("database.cls.php");
 $objDetails = new Database;
 $objleave_type = $objDetails->leave_type();
+
+$today = $_SESSION['workDate'];
+
 ?>
         <div id="page-wrapper">
             <div class="container-fluid">
@@ -26,13 +29,19 @@ $objleave_type = $objDetails->leave_type();
                                 <div class="panel-body">
                                     <div class="row">
                                         <div class="col-lg-12">
-                                            	<div class="form-group col-lg-6">
+                                            	<div class="form-group col-lg-6 ">
 							                        <label>Start Date</label>
-							                        <input class="form-control" name="start_date" id="start_date">
+							                        <div class="input-group date date_picker">
+								                        <input class="form-control" name="start_date" id="start_date" value="<?php echo $_SESSION['workDate'] ?>" >
+								                        <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+								                    </div>
 							                    </div>
 							                    <div class="form-group col-lg-6">
 							                        <label>End Date</label>
-							                        <input class="form-control" name="end_date" id="end_date">
+							                        <div class="input-group date date_picker">
+							                        	<input class="form-control" name="end_date" id="end_date" value="<?php echo $_SESSION['workDate'] ?>" >
+							                    		<span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+								                    </div>
 							                    </div>
 							                    <div class="form-group col-lg-6">
                                             		<label>Leave types</label>
@@ -70,13 +79,13 @@ $html ='<script type="text/javascript">
 $(document).ready(function () {                                  
 	var date = new Date();
 	date.setDate(date.getDate());
-	
-	$("#start_date,#end_date").datepicker({
+	$(".date_picker").datepicker({
 	    format: "dd-mm-yyyy",
 	    autoclose: true,
 	    todayHighlight: true,
 	    startDate: date,
-	    daysOfWeekDisabled: [0,6]
+	    daysOfWeekDisabled: [0,6],
+	    setDate:new Date()
 	});
 });
 </script>';

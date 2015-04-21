@@ -11,6 +11,7 @@
 
     <title><?php echo $_SESSION['Title']; ?></title>
 
+
     <!-- Bootstrap Core CSS -->
     <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
@@ -28,20 +29,43 @@
 
     <!-- Custom Fonts -->
     <link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <!--
-        <link rel="stylesheet" href="bower_components/datepicker/css/datepicker.css">
-        <link rel="stylesheet" href="bower_components/datepicker/css/bootstrap.css">
-    -->
+    
+    <link rel="stylesheet" href="bower_components/datepicker/css/datepicker.css">
+    
+    <!-- DataTables CSS -->
+    <link href="bower_components/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.css" rel="stylesheet">
+
+    <!-- DataTables Responsive CSS -->
+    <link href="bower_components/datatables-responsive/css/dataTables.responsive.css" rel="stylesheet">
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+    <style type="text/css">
+        .notification_box {
+            left: 26%;
+            position: absolute;
+            right: 25%;
+            text-align: center;
+            top: -5px;
+            z-index: 9999;
+            display: none;
+        }
+    </style>
 </head>
 
 <body>
+    <div class="row notification_box">
+        <div class="col-lg-12">
+            <div class="panel-body ">
+                <div class="alert" id="notification_msg">
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div id="wrapper">
 
@@ -256,7 +280,7 @@
                     <ul class="dropdown-menu dropdown-user">
                         <li><a href="#"><i class="fa fa-user fa-fw"></i> User Profile</a>
                         </li>
-                        <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
+                        <li><a href="settings.php"><i class="fa fa-gear fa-fw"></i> Settings</a>
                         </li>
                         <li class="divider"></li>
                         <li><a href="logout.php"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
@@ -286,16 +310,28 @@
                             <a href="main.php"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
                         </li>
                         <li>
-                            <a href="profile.php"><i class="fa fa-user fa-fw"></i> Profile</a>
+                            <a href="#"><i class="fa fa-home fa-fw"></i> Home<span class="fa arrow"></span></a>
+                             <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="profile.php"><i class="fa fa-user fa-fw"></i> Profile</a>
+                                </li>
+                                <li>
+                                    <a href="profile.php"><i class="fa fa-upload fa-fw"></i> Documents</a>
+                                </li>
+                            </ul>
+
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Leave Management<span class="fa arrow"></span></a>
+                            <a href="#"><i class="fa fa-calendar fa-fw"></i> Leave Management<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="apply_leave.php"><i class="fa fa-check fa-fw"></i> Apply Leave</a>
+                                    <a href="apply_leave.php"><i class="fa fa-send fa-fw"></i> Apply Leave</a>
                                 </li>
                                 <li>
                                     <a href="leaves.php"><i class="fa fa-bar-chart-o fa-fw"></i> Leave History</a>
+                                </li>
+                                <li>
+                                    <a href="team_leaves.php"><i class="fa fa-group fa-fw"></i> Team Leaves</a>
                                 </li>
                             </ul>
                         </li>

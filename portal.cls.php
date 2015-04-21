@@ -74,8 +74,18 @@ class Portal extends DataBase
 		$res=$this->db_result($sql);
 		$html ='';
 		if(!count($res)){
-			$html .="<h3>No Details available</h3>";
+			$html .='<div class="row">
+                		<div class="col-lg-6 col-md-offset-3">
+                    		<div class="panel-body">
+								<div class="alert alert-info" align="center" style="font-weight:bold;">
+					            	No Details Available
+					        	</div>
+							</div>
+						</div>
+					</div>';
+			return $html;
 		}
+
 		$details = array();
 		foreach($res as $val){
 			$details[$val['emp_id']]['name'] = $val['name']; 
@@ -86,10 +96,6 @@ class Portal extends DataBase
 			$details[$val['emp_id']]['leave_details'][$val['slno']]['leave'] = $val['leave'];
 			$details[$val['emp_id']]['leave_details'][$val['slno']]['description'] = $val['description'];
 		}
-		/*echo '<pre>';
-		print_r($details);
-		echo '</pre>';
-		exit();*/
 		$html .='<div class="panel-body">';
         $html .='<div class="col-lg-12">';
         foreach ($details as $key => $emp_details){
@@ -98,17 +104,17 @@ class Portal extends DataBase
         	$html .='<div class="panel-body">
                             <div class="table-responsive">
 					        	<table class="table table-striped table-bordered table-hover team_view_leaves" >
-					                            <thead>
-					                            	<tr>
-						                                <th><input type="checkbox" class="selected_all_box" id="selected_all_box" /></th>
-														<th>Posting Date</th>
-														<th>Type</th>
-														<th>Start Date</th>
-														<th>End Date</th>
-														<th>Day Leave</th>
-														<th>Description</th>
-													</tr>
-					                            </thead>';
+			                            <thead>
+			                            	<tr>
+				                                <th><input type="checkbox" class="selected_all_box" id="selected_all_box" /></th>
+												<th>Posting Date</th>
+												<th>Type</th>
+												<th>Start Date</th>
+												<th>End Date</th>
+												<th>Day Leave</th>
+												<th>Description</th>
+											</tr>
+			                            </thead>';
         	foreach ($emp_details['leave_details'] as $slno => $values) {
         		$html .='<tbody>
         					<tr>
@@ -148,6 +154,24 @@ class Portal extends DataBase
 				</div>';
 		return $html;
 	}
+
+	/* start settings.php */
+	function update_user_password($data){
+		$json = json_decode($data);
+		return $json->new_password;
+		$sql ="UPDATE employee 
+			   SET password = password('".$json->new_password."')
+			   WHERE id='".$_SESSION['emp_id']."'
+			   AND user_id='".$_SESSION['user_id']."'";
+		$res = $this->db_write($sql);
+		if($res > 0 ){
+			return '1';
+		}else{
+			return '0';
+		}
+
+	}
+	/* end settings.php */
 }
 
 ?>

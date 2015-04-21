@@ -18665,3 +18665,6443 @@ deepak.r IP:127.0.0.1 Dt 21-Apr-15 11:15AM :
  SELECT company_name,cal_year FROM sys_company_settings
 ------------------------------------------------
 SELECT company_name,cal_year FROM sys_company_settings
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 12:11PM :
+ SELECT id,name,
+					   middle_name,surname,
+					   father_name,mother_name,
+					   date_format(dob,'%d-%m-%Y')as dob,
+					   year_of_passing,
+					   sex,designation,
+					   client_name,passport_no,
+					   blood_group,
+					   date_format(doj,'%d-%m-%Y')as doj,
+					   emergency_contact,
+					   secondary_contact,
+					   mobile_2,msys_email,
+					   address,temp_address,perm_address,
+					   tel_no_,mobile_no_,email_id,
+					   pan_number,photo
+				FROM employee 
+				WHERE user_id = 'deepak.r'
+------------------------------------------------
+SELECT id,name,
+					   middle_name,surname,
+					   father_name,mother_name,
+					   date_format(dob,'%d-%m-%Y')as dob,
+					   year_of_passing,
+					   sex,designation,
+					   client_name,passport_no,
+					   blood_group,
+					   date_format(doj,'%d-%m-%Y')as doj,
+					   emergency_contact,
+					   secondary_contact,
+					   mobile_2,msys_email,
+					   address,temp_address,perm_address,
+					   tel_no_,mobile_no_,email_id,
+					   pan_number,photo
+				FROM employee 
+				WHERE user_id = 'deepak.r'
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 12:32PM :
+ SELECT id,name,
+					   middle_name,surname,
+					   father_name,mother_name,
+					   date_format(dob,'%d-%m-%Y')as dob,
+					   year_of_passing,
+					   sex,designation,
+					   client_name,passport_no,
+					   blood_group,
+					   date_format(doj,'%d-%m-%Y')as doj,
+					   emergency_contact,
+					   secondary_contact,
+					   mobile_2,msys_email,
+					   address,temp_address,perm_address,
+					   tel_no_,mobile_no_,email_id,
+					   pan_number,photo
+				FROM employee 
+				WHERE user_id = 'deepak.r'
+------------------------------------------------
+SELECT id,name,
+					   middle_name,surname,
+					   father_name,mother_name,
+					   date_format(dob,'%d-%m-%Y')as dob,
+					   year_of_passing,
+					   sex,designation,
+					   client_name,passport_no,
+					   blood_group,
+					   date_format(doj,'%d-%m-%Y')as doj,
+					   emergency_contact,
+					   secondary_contact,
+					   mobile_2,msys_email,
+					   address,temp_address,perm_address,
+					   tel_no_,mobile_no_,email_id,
+					   pan_number,photo
+				FROM employee 
+				WHERE user_id = 'deepak.r'
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 12:26PM :
+ SELECT id,name,
+					   middle_name,surname,
+					   father_name,mother_name,
+					   date_format(dob,'%d-%m-%Y')as dob,
+					   year_of_passing,
+					   sex,designation,
+					   client_name,passport_no,
+					   blood_group,
+					   date_format(doj,'%d-%m-%Y')as doj,
+					   emergency_contact,
+					   secondary_contact,
+					   mobile_2,msys_email,
+					   temp_address,perm_address,
+					   tel_no_,mobile_no_,email_id,
+					   pan_number,photo
+				FROM employee 
+				WHERE user_id = 'deepak.r'
+------------------------------------------------
+SELECT id,name,
+					   middle_name,surname,
+					   father_name,mother_name,
+					   date_format(dob,'%d-%m-%Y')as dob,
+					   year_of_passing,
+					   sex,designation,
+					   client_name,passport_no,
+					   blood_group,
+					   date_format(doj,'%d-%m-%Y')as doj,
+					   emergency_contact,
+					   secondary_contact,
+					   mobile_2,msys_email,
+					   temp_address,perm_address,
+					   tel_no_,mobile_no_,email_id,
+					   pan_number,photo
+				FROM employee 
+				WHERE user_id = 'deepak.r'
+ IP:127.0.0.1 Dt 21-Apr-15 12:57PM :
+ SELECT 	name,
+						user_id,
+						id
+				FROM employee 
+				WHERE user_id = 'deepak.r' AND 
+					  password = PASSWORD('msys@123')
+------------------------------------------------
+SELECT 	name,
+						user_id,
+						id
+				FROM employee 
+				WHERE user_id = 'deepak.r' AND 
+					  password = PASSWORD('msys@123')
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 12:57PM :
+ SELECT company_name,cal_year FROM sys_company_settings
+------------------------------------------------
+SELECT company_name,cal_year FROM sys_company_settings
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 12:11PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 12:43PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 12:07PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 12:35PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 12:09PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 12:11PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 12:45PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 12:05PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 12:16PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 12:28PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 12:06PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 12:17PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 12:43PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 1:06PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 1:20PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 1:21PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 1:37PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 1:01PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 1:05PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 1:22PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 1:55PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 1:49PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 1:59PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 1:37PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 1:48PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 1:53PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 1:00PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 1:01PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 1:01PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 1:01PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 1:01PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 1:02PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 1:02PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 1:02PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 1:02PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 1:46PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 1:46PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 1:10PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 1:59PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+ IP:127.0.0.1 Dt 21-Apr-15 2:46PM :
+ SELECT 	name,
+						user_id,
+						id
+				FROM employee 
+				WHERE user_id = 'deepak.r' AND 
+					  password = PASSWORD('msys@123')
+------------------------------------------------
+SELECT 	name,
+						user_id,
+						id
+				FROM employee 
+				WHERE user_id = 'deepak.r' AND 
+					  password = PASSWORD('msys@123')
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 2:46PM :
+ SELECT company_name,cal_year FROM sys_company_settings
+------------------------------------------------
+SELECT company_name,cal_year FROM sys_company_settings
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 2:10PM :
+ SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+------------------------------------------------
+SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 2:10PM :
+ SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M421/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+------------------------------------------------
+SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M421/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 2:10PM :
+ SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M421/2014'
+				AND calc_year = '2015'
+------------------------------------------------
+SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M421/2014'
+				AND calc_year = '2015'
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 2:10PM :
+ SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M421/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+------------------------------------------------
+SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M421/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 3:26PM :
+ SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+------------------------------------------------
+SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 3:47PM :
+ SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+------------------------------------------------
+SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 3:54PM :
+ INSERT INTO emp_leave_ledger 
+							(emp_id,  posting_date,
+							type,  calc_year,
+							start_date, end_date,
+							`leave`,description,
+							status) VALUES('M421/2014',
+				  '2015-04-21',
+				  '',
+				  '2015',
+				  '',
+				  '',
+				  '',
+				  '',
+				  'APPLIED')
+------------------------------------------------
+INSERT INTO emp_leave_ledger 
+							(emp_id,  posting_date,
+							type,  calc_year,
+							start_date, end_date,
+							`leave`,description,
+							status) VALUES('M421/2014',
+				  '2015-04-21',
+				  '',
+				  '2015',
+				  '',
+				  '',
+				  '',
+				  '',
+				  'APPLIED')
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 3:43PM :
+ SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+------------------------------------------------
+SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 3:58PM :
+ SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+------------------------------------------------
+SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 3:04PM :
+ UPDATE employee 
+			   SET password = password('asdasd')
+			   WHERE id='M421/2014
+			   AND user_id='deepak.r'
+------------------------------------------------
+UPDATE employee 
+			   SET password = password('asdasd')
+			   WHERE id='M421/2014
+			   AND user_id='deepak.r'
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 3:42PM :
+ SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+------------------------------------------------
+SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 3:52PM :
+ SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+------------------------------------------------
+SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 3:06PM :
+ SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+------------------------------------------------
+SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 4:55PM :
+ SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+------------------------------------------------
+SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 4:59PM :
+ SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+------------------------------------------------
+SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 4:51PM :
+ SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+------------------------------------------------
+SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 4:12PM :
+ SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+------------------------------------------------
+SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 4:55PM :
+ SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+------------------------------------------------
+SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 4:09PM :
+ SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+------------------------------------------------
+SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 4:57PM :
+ SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+------------------------------------------------
+SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 4:45PM :
+ SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+------------------------------------------------
+SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 4:00PM :
+ SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+------------------------------------------------
+SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 4:07PM :
+ SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+------------------------------------------------
+SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 4:20PM :
+ SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+------------------------------------------------
+SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 4:19PM :
+ SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+------------------------------------------------
+SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 4:09PM :
+ SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+------------------------------------------------
+SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 4:43PM :
+ SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+------------------------------------------------
+SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 4:01PM :
+ SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+------------------------------------------------
+SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 4:02PM :
+ SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+------------------------------------------------
+SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 4:42PM :
+ SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+------------------------------------------------
+SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 4:19PM :
+ SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+------------------------------------------------
+SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 4:47PM :
+ SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+------------------------------------------------
+SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 4:33PM :
+ SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+------------------------------------------------
+SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 4:44PM :
+ SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+------------------------------------------------
+SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 4:17PM :
+ SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+------------------------------------------------
+SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 4:58PM :
+ SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+------------------------------------------------
+SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 4:02PM :
+ SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+------------------------------------------------
+SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 4:07PM :
+ SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+------------------------------------------------
+SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 4:48PM :
+ SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+------------------------------------------------
+SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 4:37PM :
+ SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+------------------------------------------------
+SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 4:40PM :
+ SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+------------------------------------------------
+SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 4:19PM :
+ SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+------------------------------------------------
+SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 4:59PM :
+ SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+------------------------------------------------
+SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 5:43PM :
+ SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+------------------------------------------------
+SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 5:52PM :
+ SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+------------------------------------------------
+SELECT password
+				FROM employee 
+				WHERE user_id='deepak.r'
+				AND id='M421/2014'
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 5:22PM :
+ SELECT id,name,
+					   middle_name,surname,
+					   father_name,mother_name,
+					   date_format(dob,'%d-%m-%Y')as dob,
+					   year_of_passing,
+					   sex,designation,
+					   client_name,passport_no,
+					   blood_group,
+					   date_format(doj,'%d-%m-%Y')as doj,
+					   emergency_contact,
+					   secondary_contact,
+					   mobile_2,msys_email,
+					   temp_address,perm_address,
+					   tel_no_,mobile_no_,email_id,
+					   pan_number,photo
+				FROM employee 
+				WHERE user_id = 'deepak.r'
+------------------------------------------------
+SELECT id,name,
+					   middle_name,surname,
+					   father_name,mother_name,
+					   date_format(dob,'%d-%m-%Y')as dob,
+					   year_of_passing,
+					   sex,designation,
+					   client_name,passport_no,
+					   blood_group,
+					   date_format(doj,'%d-%m-%Y')as doj,
+					   emergency_contact,
+					   secondary_contact,
+					   mobile_2,msys_email,
+					   temp_address,perm_address,
+					   tel_no_,mobile_no_,email_id,
+					   pan_number,photo
+				FROM employee 
+				WHERE user_id = 'deepak.r'
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 5:57PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 5:47PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 5:10PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 5:17PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+ IP:172.30.34.36 Dt 21-Apr-15 5:58PM :
+ SELECT 	name,
+						user_id,
+						id
+				FROM employee 
+				WHERE user_id = 'deepak.r' AND 
+					  password = PASSWORD('msys@123')
+------------------------------------------------
+SELECT 	name,
+						user_id,
+						id
+				FROM employee 
+				WHERE user_id = 'deepak.r' AND 
+					  password = PASSWORD('msys@123')
+deepak.r IP:172.30.34.36 Dt 21-Apr-15 5:58PM :
+ SELECT company_name,cal_year FROM sys_company_settings
+------------------------------------------------
+SELECT company_name,cal_year FROM sys_company_settings
+deepak.r IP:172.30.34.36 Dt 21-Apr-15 5:15PM :
+ SELECT id,name,
+					   middle_name,surname,
+					   father_name,mother_name,
+					   date_format(dob,'%d-%m-%Y')as dob,
+					   year_of_passing,
+					   sex,designation,
+					   client_name,passport_no,
+					   blood_group,
+					   date_format(doj,'%d-%m-%Y')as doj,
+					   emergency_contact,
+					   secondary_contact,
+					   mobile_2,msys_email,
+					   temp_address,perm_address,
+					   tel_no_,mobile_no_,email_id,
+					   pan_number,photo
+				FROM employee 
+				WHERE user_id = 'deepak.r'
+------------------------------------------------
+SELECT id,name,
+					   middle_name,surname,
+					   father_name,mother_name,
+					   date_format(dob,'%d-%m-%Y')as dob,
+					   year_of_passing,
+					   sex,designation,
+					   client_name,passport_no,
+					   blood_group,
+					   date_format(doj,'%d-%m-%Y')as doj,
+					   emergency_contact,
+					   secondary_contact,
+					   mobile_2,msys_email,
+					   temp_address,perm_address,
+					   tel_no_,mobile_no_,email_id,
+					   pan_number,photo
+				FROM employee 
+				WHERE user_id = 'deepak.r'
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 5:02PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 5:28PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 5:31PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 5:43PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 5:18PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 5:35PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 5:43PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 5:30PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 5:36PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 5:26PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 6:13PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 6:24PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 6:47PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 6:35PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 6:19PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 6:25PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 6:47PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 6:53PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 6:44PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 6:30PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 6:45PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 6:24PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 6:25PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 6:26PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 6:26PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 6:26PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 6:26PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 6:08PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 6:45PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 6:50PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 6:01PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 6:05PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 6:23PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 6:38PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 6:39PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 6:39PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 6:39PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 6:39PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 6:40PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 6:02PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 6:12PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 6:26PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 6:57PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 6:31PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 6:55PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 7:06PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 7:26PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 7:54PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 7:03PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 7:07PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 7:13PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 7:14PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 7:14PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 7:14PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 7:14PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+ IP:127.0.0.1 Dt 21-Apr-15 7:17PM :
+ SELECT 	name,
+						user_id,
+						id
+				FROM employee 
+				WHERE user_id = 'deepak.r' AND 
+					  password = PASSWORD('msys@123')
+------------------------------------------------
+SELECT 	name,
+						user_id,
+						id
+				FROM employee 
+				WHERE user_id = 'deepak.r' AND 
+					  password = PASSWORD('msys@123')
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 7:17PM :
+ SELECT company_name,cal_year FROM sys_company_settings
+------------------------------------------------
+SELECT company_name,cal_year FROM sys_company_settings
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 7:45PM :
+ SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+------------------------------------------------
+SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 7:45PM :
+ SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M421/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+------------------------------------------------
+SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M421/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 7:45PM :
+ SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M421/2014'
+				AND calc_year = '2015'
+------------------------------------------------
+SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M421/2014'
+				AND calc_year = '2015'
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 7:45PM :
+ SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M421/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+------------------------------------------------
+SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M421/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 7:58PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 7:01PM :
+ SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+------------------------------------------------
+SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 7:01PM :
+ SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M421/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+------------------------------------------------
+SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M421/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 7:01PM :
+ SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M421/2014'
+				AND calc_year = '2015'
+------------------------------------------------
+SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M421/2014'
+				AND calc_year = '2015'
+deepak.r IP:127.0.0.1 Dt 21-Apr-15 7:01PM :
+ SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M421/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+------------------------------------------------
+SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M421/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+ IP:127.0.0.1 Dt 21-Apr-15 7:22PM :
+ SELECT 	name,
+						user_id,
+						id
+				FROM employee 
+				WHERE user_id = 'jega.v' AND 
+					  password = PASSWORD('msys@123')
+------------------------------------------------
+SELECT 	name,
+						user_id,
+						id
+				FROM employee 
+				WHERE user_id = 'jega.v' AND 
+					  password = PASSWORD('msys@123')
+jega.v IP:127.0.0.1 Dt 21-Apr-15 7:22PM :
+ SELECT company_name,cal_year FROM sys_company_settings
+------------------------------------------------
+SELECT company_name,cal_year FROM sys_company_settings
+jega.v IP:127.0.0.1 Dt 21-Apr-15 7:25PM :
+ SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+------------------------------------------------
+SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+jega.v IP:127.0.0.1 Dt 21-Apr-15 7:25PM :
+ SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+------------------------------------------------
+SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+jega.v IP:127.0.0.1 Dt 21-Apr-15 7:25PM :
+ SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+------------------------------------------------
+SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+jega.v IP:127.0.0.1 Dt 21-Apr-15 7:25PM :
+ SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+------------------------------------------------
+SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+jega.v IP:127.0.0.1 Dt 21-Apr-15 7:33PM :
+ SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+------------------------------------------------
+SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+jega.v IP:127.0.0.1 Dt 21-Apr-15 7:33PM :
+ SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+------------------------------------------------
+SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+jega.v IP:127.0.0.1 Dt 21-Apr-15 7:33PM :
+ SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+------------------------------------------------
+SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+jega.v IP:127.0.0.1 Dt 21-Apr-15 7:33PM :
+ SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+------------------------------------------------
+SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+jega.v IP:127.0.0.1 Dt 21-Apr-15 7:52PM :
+ SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+------------------------------------------------
+SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+jega.v IP:127.0.0.1 Dt 21-Apr-15 7:52PM :
+ SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+------------------------------------------------
+SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+jega.v IP:127.0.0.1 Dt 21-Apr-15 7:52PM :
+ SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+------------------------------------------------
+SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+jega.v IP:127.0.0.1 Dt 21-Apr-15 7:52PM :
+ SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+------------------------------------------------
+SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+jega.v IP:127.0.0.1 Dt 21-Apr-15 7:49PM :
+ SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+------------------------------------------------
+SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+jega.v IP:127.0.0.1 Dt 21-Apr-15 7:49PM :
+ SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+------------------------------------------------
+SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+jega.v IP:127.0.0.1 Dt 21-Apr-15 7:49PM :
+ SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+------------------------------------------------
+SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+jega.v IP:127.0.0.1 Dt 21-Apr-15 7:49PM :
+ SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+------------------------------------------------
+SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+jega.v IP:127.0.0.1 Dt 21-Apr-15 7:18PM :
+ SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+------------------------------------------------
+SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+jega.v IP:127.0.0.1 Dt 21-Apr-15 7:18PM :
+ SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+------------------------------------------------
+SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+jega.v IP:127.0.0.1 Dt 21-Apr-15 7:18PM :
+ SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+------------------------------------------------
+SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+jega.v IP:127.0.0.1 Dt 21-Apr-15 7:18PM :
+ SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+------------------------------------------------
+SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+jega.v IP:127.0.0.1 Dt 21-Apr-15 7:45PM :
+ SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+------------------------------------------------
+SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+jega.v IP:127.0.0.1 Dt 21-Apr-15 7:45PM :
+ SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+------------------------------------------------
+SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+jega.v IP:127.0.0.1 Dt 21-Apr-15 7:45PM :
+ SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+------------------------------------------------
+SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+jega.v IP:127.0.0.1 Dt 21-Apr-15 7:45PM :
+ SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+------------------------------------------------
+SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+jega.v IP:127.0.0.1 Dt 21-Apr-15 7:15PM :
+ SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+------------------------------------------------
+SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+jega.v IP:127.0.0.1 Dt 21-Apr-15 7:15PM :
+ SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+------------------------------------------------
+SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+jega.v IP:127.0.0.1 Dt 21-Apr-15 7:15PM :
+ SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+------------------------------------------------
+SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+jega.v IP:127.0.0.1 Dt 21-Apr-15 7:15PM :
+ SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+------------------------------------------------
+SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:50PM :
+ SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+------------------------------------------------
+SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:50PM :
+ SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+------------------------------------------------
+SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:50PM :
+ SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+------------------------------------------------
+SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:50PM :
+ SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+------------------------------------------------
+SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:00PM :
+ SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+------------------------------------------------
+SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:00PM :
+ SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+------------------------------------------------
+SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:00PM :
+ SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+------------------------------------------------
+SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:00PM :
+ SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+------------------------------------------------
+SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:02PM :
+ SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+------------------------------------------------
+SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:02PM :
+ SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+------------------------------------------------
+SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:02PM :
+ SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+------------------------------------------------
+SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:02PM :
+ SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+------------------------------------------------
+SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:42PM :
+ SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+------------------------------------------------
+SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:42PM :
+ SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+------------------------------------------------
+SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:42PM :
+ SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+------------------------------------------------
+SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:42PM :
+ SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+------------------------------------------------
+SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:07PM :
+ SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+------------------------------------------------
+SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:07PM :
+ SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+------------------------------------------------
+SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:07PM :
+ SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+------------------------------------------------
+SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:07PM :
+ SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+------------------------------------------------
+SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:11PM :
+ SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+------------------------------------------------
+SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:11PM :
+ SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+------------------------------------------------
+SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:11PM :
+ SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+------------------------------------------------
+SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:11PM :
+ SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+------------------------------------------------
+SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:34PM :
+ SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+------------------------------------------------
+SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:34PM :
+ SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+------------------------------------------------
+SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:34PM :
+ SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+------------------------------------------------
+SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:34PM :
+ SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+------------------------------------------------
+SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:51PM :
+ SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+------------------------------------------------
+SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:51PM :
+ SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+------------------------------------------------
+SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:51PM :
+ SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+------------------------------------------------
+SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:51PM :
+ SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+------------------------------------------------
+SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:33PM :
+ SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+------------------------------------------------
+SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:33PM :
+ SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+------------------------------------------------
+SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:33PM :
+ SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+------------------------------------------------
+SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:33PM :
+ SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+------------------------------------------------
+SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:22PM :
+ SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+------------------------------------------------
+SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:22PM :
+ SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+------------------------------------------------
+SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:22PM :
+ SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+------------------------------------------------
+SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:22PM :
+ SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+------------------------------------------------
+SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:44PM :
+ SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+------------------------------------------------
+SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:44PM :
+ SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+------------------------------------------------
+SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:44PM :
+ SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+------------------------------------------------
+SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:44PM :
+ SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+------------------------------------------------
+SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:29PM :
+ SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+------------------------------------------------
+SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:29PM :
+ SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+------------------------------------------------
+SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:29PM :
+ SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+------------------------------------------------
+SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:29PM :
+ SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+------------------------------------------------
+SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:15PM :
+ SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+------------------------------------------------
+SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:15PM :
+ SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+------------------------------------------------
+SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:15PM :
+ SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+------------------------------------------------
+SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:15PM :
+ SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+------------------------------------------------
+SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:06PM :
+ SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+------------------------------------------------
+SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:06PM :
+ SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+------------------------------------------------
+SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:06PM :
+ SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+------------------------------------------------
+SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:06PM :
+ SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+------------------------------------------------
+SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:16PM :
+ SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+------------------------------------------------
+SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:16PM :
+ SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+------------------------------------------------
+SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:16PM :
+ SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+------------------------------------------------
+SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:16PM :
+ SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+------------------------------------------------
+SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:19PM :
+ SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+------------------------------------------------
+SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:19PM :
+ SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+------------------------------------------------
+SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:19PM :
+ SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+------------------------------------------------
+SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:19PM :
+ SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+------------------------------------------------
+SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:38PM :
+ SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+------------------------------------------------
+SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:38PM :
+ SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+------------------------------------------------
+SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:38PM :
+ SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+------------------------------------------------
+SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:38PM :
+ SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+------------------------------------------------
+SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:15PM :
+ SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+------------------------------------------------
+SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:15PM :
+ SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+------------------------------------------------
+SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:15PM :
+ SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+------------------------------------------------
+SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:15PM :
+ SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+------------------------------------------------
+SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:20PM :
+ SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+------------------------------------------------
+SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:20PM :
+ SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+------------------------------------------------
+SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:20PM :
+ SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+------------------------------------------------
+SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:20PM :
+ SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+------------------------------------------------
+SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:13PM :
+ SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+------------------------------------------------
+SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:13PM :
+ SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+------------------------------------------------
+SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:13PM :
+ SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+------------------------------------------------
+SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:13PM :
+ SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+------------------------------------------------
+SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:23PM :
+ SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+------------------------------------------------
+SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:23PM :
+ SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+------------------------------------------------
+SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:23PM :
+ SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+------------------------------------------------
+SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:23PM :
+ SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+------------------------------------------------
+SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:58PM :
+ SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+------------------------------------------------
+SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:58PM :
+ SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+------------------------------------------------
+SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:58PM :
+ SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+------------------------------------------------
+SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:58PM :
+ SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+------------------------------------------------
+SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:49PM :
+ SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+------------------------------------------------
+SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:49PM :
+ SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+------------------------------------------------
+SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:49PM :
+ SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+------------------------------------------------
+SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:49PM :
+ SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+------------------------------------------------
+SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:45PM :
+ SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+------------------------------------------------
+SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:45PM :
+ SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+------------------------------------------------
+SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:45PM :
+ SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+------------------------------------------------
+SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:45PM :
+ SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+------------------------------------------------
+SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:03PM :
+ SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+------------------------------------------------
+SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:03PM :
+ SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+------------------------------------------------
+SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:03PM :
+ SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+------------------------------------------------
+SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:03PM :
+ SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+------------------------------------------------
+SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:36PM :
+ SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+------------------------------------------------
+SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:36PM :
+ SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+------------------------------------------------
+SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:36PM :
+ SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+------------------------------------------------
+SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:36PM :
+ SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+------------------------------------------------
+SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:19PM :
+ SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+------------------------------------------------
+SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:19PM :
+ SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+------------------------------------------------
+SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:19PM :
+ SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+------------------------------------------------
+SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:19PM :
+ SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+------------------------------------------------
+SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:22PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:28PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:28PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:48PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+jega.v IP:127.0.0.1 Dt 21-Apr-15 8:22PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:17PM :
+ SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+------------------------------------------------
+SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:17PM :
+ SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+------------------------------------------------
+SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:17PM :
+ SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+------------------------------------------------
+SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:17PM :
+ SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+------------------------------------------------
+SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:36PM :
+ SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+------------------------------------------------
+SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:36PM :
+ SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+------------------------------------------------
+SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:36PM :
+ SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+------------------------------------------------
+SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:36PM :
+ SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+------------------------------------------------
+SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:01PM :
+ SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+------------------------------------------------
+SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:01PM :
+ SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+------------------------------------------------
+SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:01PM :
+ SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+------------------------------------------------
+SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:01PM :
+ SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+------------------------------------------------
+SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:50PM :
+ SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+------------------------------------------------
+SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:50PM :
+ SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+------------------------------------------------
+SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:50PM :
+ SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+------------------------------------------------
+SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:50PM :
+ SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+------------------------------------------------
+SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:01PM :
+ SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+------------------------------------------------
+SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:01PM :
+ SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+------------------------------------------------
+SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:01PM :
+ SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+------------------------------------------------
+SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:01PM :
+ SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+------------------------------------------------
+SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:14PM :
+ SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+------------------------------------------------
+SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:14PM :
+ SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+------------------------------------------------
+SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:14PM :
+ SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+------------------------------------------------
+SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:14PM :
+ SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+------------------------------------------------
+SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:52PM :
+ SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+------------------------------------------------
+SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:52PM :
+ SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+------------------------------------------------
+SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:52PM :
+ SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+------------------------------------------------
+SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:52PM :
+ SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+------------------------------------------------
+SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:17PM :
+ SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+------------------------------------------------
+SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:17PM :
+ SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+------------------------------------------------
+SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:17PM :
+ SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+------------------------------------------------
+SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:17PM :
+ SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+------------------------------------------------
+SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:48PM :
+ SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+------------------------------------------------
+SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:48PM :
+ SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+------------------------------------------------
+SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:48PM :
+ SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+------------------------------------------------
+SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:48PM :
+ SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+------------------------------------------------
+SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:59PM :
+ SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+------------------------------------------------
+SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:59PM :
+ SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+------------------------------------------------
+SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:59PM :
+ SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+------------------------------------------------
+SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:59PM :
+ SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+------------------------------------------------
+SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:50PM :
+ SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+------------------------------------------------
+SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:50PM :
+ SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+------------------------------------------------
+SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:50PM :
+ SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+------------------------------------------------
+SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:50PM :
+ SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+------------------------------------------------
+SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:52PM :
+ SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+------------------------------------------------
+SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:52PM :
+ SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+------------------------------------------------
+SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:52PM :
+ SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+------------------------------------------------
+SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:52PM :
+ SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+------------------------------------------------
+SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:21PM :
+ SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+------------------------------------------------
+SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:28PM :
+ SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+------------------------------------------------
+SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:31PM :
+ SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+------------------------------------------------
+SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:31PM :
+ SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+------------------------------------------------
+SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:31PM :
+ SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+------------------------------------------------
+SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:31PM :
+ SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+------------------------------------------------
+SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:11PM :
+ SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+------------------------------------------------
+SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:11PM :
+ SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+------------------------------------------------
+SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:11PM :
+ SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+------------------------------------------------
+SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:11PM :
+ SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+------------------------------------------------
+SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:14PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:16PM :
+ SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+------------------------------------------------
+SELECT code,
+				       name,
+       				   total
+				FROM leave_types
+				ORDER BY name,total
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:16PM :
+ SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+------------------------------------------------
+SELECT type,
+					       sum(`leave`) as taken
+					FROM emp_leave_ledger  
+					WHERE emp_id = 'M419/2014'
+					AND calc_year = '2015'
+					AND status IN ('APPROVED','CONSUMED')
+					GROUP BY `type`
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:16PM :
+ SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+------------------------------------------------
+SELECT  date_format(posting_date,'%d-%m-%Y')as posting_date,
+						type,
+						date_format(start_date,'%d-%m-%Y')as start_date,
+						date_format(end_date,'%d-%m-%Y')as end_date,
+						`leave`,
+						description,
+						status,
+						remarks
+				FROM emp_leave_ledger
+				WHERE emp_id = 'M419/2014'
+				AND calc_year = '2015'
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:16PM :
+ SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+------------------------------------------------
+SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:20PM :
+ SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+------------------------------------------------
+SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:26PM :
+ SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+------------------------------------------------
+SELECT code,
+					   name
+				FROM leave_types
+				ORDER BY code
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:31PM :
+ SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+------------------------------------------------
+SELECT  el.slno as slno,
+						el.emp_id,
+						e.name,
+						date_format(el.posting_date,'%d-%m-%Y')as posting_date,
+						el.type,
+						date_format(el.start_date,'%d-%m-%Y')as start_date,
+						date_format(el.end_date,'%d-%m-%Y')as end_date,
+						el.`leave`,
+						el.description,
+						el.status
+		FROM emp_leave_ledger el
+		LEFT JOIN employee e ON el.emp_id = e.id
+		WHERE el.approved_by = 'M419/2014'
+		AND status = 'APPLIED'
+		AND el.calc_year = '2015'
+		ORDER BY el.emp_id,el.posting_date
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:34PM :
+ SELECT id,name,
+					   middle_name,surname,
+					   father_name,mother_name,
+					   date_format(dob,'%d-%m-%Y')as dob,
+					   year_of_passing,
+					   sex,designation,
+					   client_name,passport_no,
+					   blood_group,
+					   date_format(doj,'%d-%m-%Y')as doj,
+					   emergency_contact,
+					   secondary_contact,
+					   mobile_2,msys_email,
+					   temp_address,perm_address,
+					   tel_no_,mobile_no_,email_id,
+					   pan_number,photo
+				FROM employee 
+				WHERE user_id = 'jega.v'
+------------------------------------------------
+SELECT id,name,
+					   middle_name,surname,
+					   father_name,mother_name,
+					   date_format(dob,'%d-%m-%Y')as dob,
+					   year_of_passing,
+					   sex,designation,
+					   client_name,passport_no,
+					   blood_group,
+					   date_format(doj,'%d-%m-%Y')as doj,
+					   emergency_contact,
+					   secondary_contact,
+					   mobile_2,msys_email,
+					   temp_address,perm_address,
+					   tel_no_,mobile_no_,email_id,
+					   pan_number,photo
+				FROM employee 
+				WHERE user_id = 'jega.v'
+jega.v IP:127.0.0.1 Dt 21-Apr-15 9:35PM :
+ SELECT id,name,
+					   middle_name,surname,
+					   father_name,mother_name,
+					   date_format(dob,'%d-%m-%Y')as dob,
+					   year_of_passing,
+					   sex,designation,
+					   client_name,passport_no,
+					   blood_group,
+					   date_format(doj,'%d-%m-%Y')as doj,
+					   emergency_contact,
+					   secondary_contact,
+					   mobile_2,msys_email,
+					   temp_address,perm_address,
+					   tel_no_,mobile_no_,email_id,
+					   pan_number,photo
+				FROM employee 
+				WHERE user_id = 'jega.v'
+------------------------------------------------
+SELECT id,name,
+					   middle_name,surname,
+					   father_name,mother_name,
+					   date_format(dob,'%d-%m-%Y')as dob,
+					   year_of_passing,
+					   sex,designation,
+					   client_name,passport_no,
+					   blood_group,
+					   date_format(doj,'%d-%m-%Y')as doj,
+					   emergency_contact,
+					   secondary_contact,
+					   mobile_2,msys_email,
+					   temp_address,perm_address,
+					   tel_no_,mobile_no_,email_id,
+					   pan_number,photo
+				FROM employee 
+				WHERE user_id = 'jega.v'

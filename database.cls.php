@@ -95,6 +95,19 @@ class DataBase{
 			return substr($string, -4). '-' . substr($string, 3, 2) . '-' . substr($string, 0, 2);
 		}
 	}
+	
+	function get_user_password ($emp_id, $user_id){
+		$sql = "SELECT password
+				FROM employee 
+				WHERE user_id='".$user_id."'
+				AND id='".$emp_id."'";
+		$res = $this->db_result($sql);
+		if(count($res)){
+			return $res[0]['password'];
+		}else{
+			return 0;
+		}
+	}
 
 	function get_employee_details (){
 		$sql = "SELECT id,name,
@@ -109,7 +122,7 @@ class DataBase{
 					   emergency_contact,
 					   secondary_contact,
 					   mobile_2,msys_email,
-					   address,temp_address,perm_address,
+					   temp_address,perm_address,
 					   tel_no_,mobile_no_,email_id,
 					   pan_number,photo
 				FROM employee 
@@ -209,11 +222,11 @@ class DataBase{
 
             $html .='<div class="form-group col-lg-12">
                         <label>Temporary Address</label>
-                        <input class="form-control" name="address" value="'.$row['temp_address'].'">
+                        <input class="form-control" name="temp_address" value="'.$row['temp_address'].'">
                     </div>
                     <div class="form-group col-lg-12">
                         <label>Permanent Address</label>
-                        <input class="form-control" name="address_2" value="'.$row['perm_address'].'">
+                        <input class="form-control" name="perm_address" value="'.$row['perm_address'].'">
                     </div>';
 
 		}else{
@@ -230,7 +243,7 @@ class DataBase{
 		$res=$this->db_result($sql);
 		$options = '';
 		if(count($res)) {
-			$options .= '<option value="">Select Any Value</option>';
+			$options .= '<option value="" >Select Any Value</option>';
 			foreach($res as $leave) {
 				$options .= '<option value="'.$leave['code'].'">'.$leave['name'].'('.$leave['code'].')</option>';
 			}
@@ -271,7 +284,7 @@ class DataBase{
 			// Pending
 			$html .='<div class="panel-body">
 					 <div id ="div_calendar">
-					 <table align="center" border="1" class="table table-striped table-bordered table-hover" style="border-collapse:collapse; width:auto; height:auto;">';
+					 <table align="center" id ="total_leaves" border="1" class="table table-striped table-bordered table-hover" style="border-collapse:collapse; width:auto; height:auto;">';
 			$html .= '<tr class="ui-widget-header"><td colspan='.(count($result)+2).' style="font-weight:bold;">Leave Details for year: '.$_SESSION['leave_year'].'</td></tr>';
 			$html .='<tr class="ui-widget-header ui-corner-all">';
 			$html .='<th>Type</th>';
