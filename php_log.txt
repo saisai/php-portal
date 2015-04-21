@@ -1,0 +1,12 @@
+18-Apr-15 12:55PM : SELECT 	name,
+						user_id
+				FROM employee 
+				WHERE user_id = 'deepak.r' AND 
+					  password = PASSWORD('msys2123')
+------------------------------------------------
+18-Apr-15 12:03PM : SELECT 	name,
+						user_id
+				FROM employee 
+				WHERE user_id = 'deepak.r' AND 
+					  password = PASSWORD('msys@123')
+------------------------------------------------

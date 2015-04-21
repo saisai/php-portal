@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>bootstrap datepicker examples</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="css/datepicker.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        
+    </head>
+    <body>
+        <div class="container">
+            <div class="hero-unit">
+                Start Date:<input class="dp" type="text"   id="t1">
+                 
+                
+        
+        </div>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap-datepicker.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {                                  
+            $('#t1').datepicker({
+                format: "dd/mm/yyyy",
+                autoclose: true
+            });
+
+        });        
+        </script>
+    </body>
+</html>
