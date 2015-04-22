@@ -10,6 +10,10 @@ var hide_notification = function(cls){
 	$("#notification_msg").removeClass("alert-"+cls);
 };
 
+var refresh_current_page = function (){
+	location.reload();
+};
+
 $("#update_password").click(function(){
 	var getJsonData =  {
 			className 	: "Portal",
@@ -191,3 +195,31 @@ $("#leave_reject").click(function(){
 	var slno = get_selected_members ();
 	save_team_leave_status (slno,"REJECTED");
 });
+
+
+
+/*Start Emp Documents*/
+$("#save_emp_documents").click(function (){
+
+	var getJsonData =  {
+			className 	: "Portal",
+			methodName 	: "save_emp_documents",
+			doc_code 	: $("#document_type").val(),
+			doc_file 	: $("#doc_file").val(),
+			course 		: $("#course_type").val(),
+			in_hand 	: $("#in_hand").val(),
+			remarks 	: $("#doc_remarks").val()
+		};
+		var data = JSON.stringify(getJsonData);
+		$.post("ajaxpage.php",{submit : "commonAction",data:data},
+		function(data)
+		{
+			if(data == 1){
+				show_notification("Documents Saved Successfully","success");
+				location.reload();
+			}else{
+				show_notification("Documents Saved Failed... Try again","danger");
+			}
+		});
+});
+/*End Emp Documents*/

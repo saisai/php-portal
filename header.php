@@ -54,6 +54,10 @@
             z-index: 9999;
             display: none;
         }
+        .fa-plane {
+            font-size: 16px;
+        }
+
     </style>
 </head>
 
@@ -316,7 +320,19 @@
                                     <a href="profile.php"><i class="fa fa-user fa-fw"></i> Profile</a>
                                 </li>
                                 <li>
-                                    <a href="profile.php"><i class="fa fa-upload fa-fw"></i> Documents</a>
+                                    <a href="documents.php"><i class="fa fa-files-o fa-fw"></i> Documents</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa fa-graduation-cap fa-fw"></i> Qualification</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa fa-briefcase fa-fw"></i> Experience</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa fa-plane fa-fw"></i> Visa</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa fa-desktop fa-fw"></i> Projects</a>
                                 </li>
                             </ul>
 

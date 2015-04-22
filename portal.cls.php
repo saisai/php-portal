@@ -11,6 +11,24 @@ class Portal extends DataBase
 		parent::DataBase();
 	}
 
+	function get_all_documents (){
+		$sql = "SELECT code,
+					   name
+				FROM document
+				ORDER BY code";
+		$res=$this->db_result($sql);
+		$options = '';
+		if(count($res)) {
+			$options .= '<option value="" >Select Any Value</option>';
+			foreach($res as $leave) {
+				$options .= '<option value="'.$leave['code'].'">'.$leave['name'].'('.$leave['code'].')</option>';
+			}
+		} else {
+			$options .= '<option value="" >No Leaves available</option>';
+		}
+		return $options;
+	}
+
 	function save_apply_leave($data){
 		$json = json_decode($data);
 		$sql = 'INSERT INTO emp_leave_ledger 
@@ -172,6 +190,109 @@ class Portal extends DataBase
 
 	}
 	/* end settings.php */
+
+	function get_emp_documents(){
+		$sql ="SELECT ed.code,
+					  d.name as doc_name,
+					  course,ed.doc_type,
+					  doc_file,
+					  remarks,
+					  in_hand,
+					  date_format(return_date,'%d-%m-%Y')as return_date,
+					  verified,
+					  returned 
+				FROM emp_documents ed
+				LEFT JOIN document d ON d.code = ed.code
+				WHERE emp_id ='".$_SESSION['emp_id']."' ";
+		$res=$this->db_result($sql);
+		$html ='';
+		if(!count($res)){
+			$html .='<div class="row">
+                		<div class="col-lg-6 col-md-offset-3">
+                    		<div class="panel-body">
+								<div class="alert alert-info" align="center" style="font-weight:bold;">
+					            	No Details Available
+					        	</div>
+							</div>
+						</div>
+					</div>';
+			return $html;
+		}
+
+				$html .='<div class="panel-body">';
+        $html .='<div class="col-lg-12">';
+    	$html .='<div class="panel panel-default">
+    				<div class="panel-heading">Uploaded Documents ('.count($res).')</div>';
+    	$html .='<div class="panel-body">
+                        <div class="table-responsive">
+				        	<table class="table table-striped table-bordered table-hover team_view_leaves" >
+		                            <thead>
+		                            	<tr>
+			                                <th>#</th>
+											<th>Name of the Document</th>
+											<th>Course</th>
+											<th>File Name</th>
+											<th>In Hand</th>
+											<th>Returned date</th>
+											<th>Verified</th>
+											<th>Returned</th>
+											<th>Remarks</th>
+										</tr>
+		                            </thead>';
+        $count =1;
+        foreach ($res as $values) {
+        		$hand = ($values['in_hand'] == 'org') ? "Original":"Copy";
+        		$course = ($values['course'] == 'REGULAR') ? "Regular":"Distance";
+        		$verified = ($values['verified']) ? "checked":"";
+        		$returned = ($values['returned']) ? "checked":"";
+        		$html .='<tbody>
+        					<tr>
+								<td>'.$count.'</td>
+								<td>'.$values['doc_name'].'</td>
+								<td>'.$course.'</td>
+								<td>'.$values['doc_file'].'</td>
+								<td>'.$hand.'</td>
+								<td>'.$values['return_date'].'</td>
+								<td><input type="checkbox" '.$verified.' disabled></td>
+								<td><input type="checkbox" '.$returned.' disabled></td>';
+				  if(strlen($values['remarks'])<=30){
+    					$html .='<td style="cursor:pointer;" title="'.$values['remarks'].'">'.$values['remarks'].'</td>';
+  				  }else{
+  						$html .='<td style="cursor:pointer;" title="'.$values['remarks'].'">'.substr($values['remarks'],0,30).' ...</td>';  	
+  				  }
+        		$html .='</tr>
+        				 </tbody>';
+        	$count++;
+        }
+    	$html .='</table>
+    			 </div>
+    			 </div>';
+    	$html .='</div>';
+    	return $html;
+	}
+
+	function save_emp_documents($data){
+ 		$json = json_decode($data);
+ 		$sql = 'INSERT INTO emp_documents 
+							(emp_id, upload_date,
+							 code, doc_file,
+							course,  in_hand,line_no_,
+							remarks) VALUES';
+		$sql .= "('".addslashes($_SESSION['emp_id'])."',
+				  '".$this->dmy2ymd($_SESSION['workDate'])."',
+				  '".addslashes($json->doc_code)."',
+				  '".addslashes($json->doc_file)."',
+				  '".addslashes($json->course)."',
+				  '".addslashes($json->in_hand)."',
+				  '10000',
+				  '".addslashes($json->remarks)."')";
+		 $res = $this->db_write($sql);
+		if($res > 0 ){
+			return '1';
+		}else{
+			return '0';
+		}
+	}
 }
 
 ?>
