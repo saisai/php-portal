@@ -11,82 +11,76 @@ include_once("header.php");
 include_once("portal.cls.php");
 
 $objPortal = new Portal;
-$get_emp_documents = $objPortal->get_emp_documents();
-$get_all_documents = $objPortal->get_all_documents();
+$get_emp_projects = $objPortal->get_emp_projects();
+$get_all_projects = $objPortal->get_all_projects();
+
 ?>
         <div id="page-wrapper">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="page-header">Documents Details</h1>
+                    <h1 class="page-header">Projects Details</h1>
                 </div>
                 <!-- /.col-lg-12 -->
             </div>
             <!-- /.row -->
             <!-- /.row -->
-			<div class="row">
+            <div class="row">
                 <div class="col-lg-12">
                     <div class="panel panel-default">
-                        <div class="panel-heading">Documents</div>
+                        <div class="panel-heading">Projects</div>
                             <div class="panel-body">
                                 <div class="row">
                                     <div class="col-lg-11">
-                                        <button class="btn btn-primary pull-right" data-toggle="modal" data-target="#emp_doc_model"><i class="fa fa-upload fa-fw"></i> Upload File</button>
+                                        <button class="btn btn-primary pull-right" data-toggle="modal" data-target="#emp_doc_model"><i class="fa fa-plus fa-fw"></i> Add Projects</button>
                                     </div>
                                     <div class="modal fade" id="emp_doc_model" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                                         <div class="modal-dialog">
                                             <div class="modal-content">
                                                 <div class="modal-header">
                                                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                                    <h4 class="modal-title" id="myModalLabel">Upload New Document</h4>
+                                                    <h4 class="modal-title" id="myModalLabel">Add Projects</h4>
                                                 </div>
                                                 <div class="modal-body">
                                                     <div class="form-group row">
                                                         <div class="col-sm-4"> 
-                                                             <label>Document Type</label>
+                                                            <label>Code</label>
                                                         </div>
                                                         <div class="col-sm-8"> 
-                                                           <select class="form-control" id="document_type">
-                                                            <?php echo $get_all_documents ?>
-                                                        </select>
+                                                            <select class="form-control" id="code">
+                                                                <?php echo $get_all_projects ?>
+                                                            </select>
                                                         </div>
                                                     </div>
                                                     <div class="form-group row"> 
                                                         <div class="col-sm-4">                                           
-                                                             <label>Document File</label>
+                                                            <label>Name</label>
                                                         </div>
                                                         <div class="col-sm-8">           
-                                                            <input type="file" id="doc_file">
+                                                            <input type="text" id="Project_name" size="30">
                                                         </div>
                                                     </div>
                                                     <div class="form-group row">
                                                         <div class="col-sm-4">                                           
-                                                            <label>Course</label>
+                                                            <label>Reporting To</label>
                                                         </div>
                                                         <div class="col-sm-8">           
-                                                            <select class="form-control" id="course_type">
-                                                            <option value="">Select Any Value</option>
-                                                            <option value="REGULAR">Regular</option>
-                                                            <option value="DISTANCE">Distance</option>
-                                                        </select>
+                                                            <input type="text" id="report" size="30">
                                                         </div>
                                                     </div>
                                                     <div class="form-group row">
                                                         <div class="col-sm-4">                                           
-                                                            <label>Given</label>
+                                                            <label>Is Completed</label>
                                                         </div>
                                                         <div class="col-sm-8">           
-                                                            <select class="form-control" id="in_hand">
-                                                            <option value="">Select Any Value</option>
-                                                            <option value="org">Original</option>
-                                                            <option value="copy">Copy</option>
-                                                        </select>
+                                                            <input type="checkbox" id="is_completed" size="30">
                                                         </div>
-                                                    </div>
+                                                    </div>                                                    
                                                     <div class="form-group row">
                                                         <div class="col-sm-12">
-                                                            <label>Remarks</label> 
-                                                            <textarea class="form-control" rows="3" id="doc_remarks"></textarea>
-                                                       </div> 
+                                                            <label>Remarks</label>
+                                                        
+                                                            <textarea class="form-control" rows="3" id="remarks" cols="30" ></textarea>
+                                                        </div>
                                                     </div>
                                                 </div>
                                                 <div class="modal-footer">
@@ -99,7 +93,7 @@ $get_all_documents = $objPortal->get_all_documents();
                                         <!-- /.modal-dialog -->
                                     </div>
                                     <div class="col-lg-12">
-                                    	<?php echo $get_emp_documents ?>
+                                        <?php echo $get_emp_projects ?>
                                     </div>
                                 </div>
                             </div>

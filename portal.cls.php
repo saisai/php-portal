@@ -29,6 +29,42 @@ class Portal extends DataBase
 		return $options;
 	}
 
+	function get_all_qualifications (){
+		$sql = "SELECT code,
+					   name
+				FROM qualifications
+				ORDER BY code";
+		$res=$this->db_result($sql);
+		$options = '';
+		if(count($res)) {
+			$options .= '<option value="" >Select Any Value</option>';
+			foreach($res as $leave) {
+				$options .= '<option value="'.$leave['code'].'">'.$leave['name'].'('.$leave['code'].')</option>';
+			}
+		} else {
+			$options .= '<option value="" >No Leaves available</option>';
+		}
+		return $options;
+	}
+
+	function get_all_projects (){
+		$sql = "SELECT code,
+					   name
+				FROM projects
+				ORDER BY code";
+		$res=$this->db_result($sql);
+		$options = '';
+		if(count($res)) {
+			$options .= '<option value="" >Select Any Value</option>';
+			foreach($res as $leave) {
+				$options .= '<option value="'.$leave['code'].'">'.$leave['name'].'('.$leave['code'].')</option>';
+			}
+		} else {
+			$options .= '<option value="" >No Leaves available</option>';
+		}
+		return $options;
+	}
+
 	function save_apply_leave($data){
 		$json = json_decode($data);
 		$sql = 'INSERT INTO emp_leave_ledger 
@@ -219,7 +255,7 @@ class Portal extends DataBase
 			return $html;
 		}
 
-				$html .='<div class="panel-body">';
+		$html .='<div class="panel-body">';
         $html .='<div class="col-lg-12">';
     	$html .='<div class="panel panel-default">
     				<div class="panel-heading">Uploaded Documents ('.count($res).')</div>';
@@ -274,6 +310,389 @@ class Portal extends DataBase
 	function save_emp_documents($data){
  		$json = json_decode($data);
  		$sql = 'INSERT INTO emp_documents 
+							(emp_id, upload_date,
+							 code, doc_file,
+							course,  in_hand,line_no_,
+							remarks) VALUES';
+		$sql .= "('".addslashes($_SESSION['emp_id'])."',
+				  '".$this->dmy2ymd($_SESSION['workDate'])."',
+				  '".addslashes($json->doc_code)."',
+				  '".addslashes($json->doc_file)."',
+				  '".addslashes($json->course)."',
+				  '".addslashes($json->in_hand)."',
+				  '10000',
+				  '".addslashes($json->remarks)."')";
+		 $res = $this->db_write($sql);
+		if($res > 0 ){
+			return '1';
+		}else{
+			return '0';
+		}
+	}
+
+	function get_emp_qualification(){
+		$sql ="SELECT 
+				board,
+				type,
+				course_name,
+				total_mark,
+				obtained_mark,
+				percentage,
+				year_of_passing,
+				grade,
+				remarks 
+				FROM emp_qualification
+				WHERE emp_id ='".$_SESSION['emp_id']."' ";
+		$res=$this->db_result($sql);
+		$html ='';
+		if(!count($res)){
+			$html .='<div class="row">
+                		<div class="col-lg-6 col-md-offset-3">
+                    		<div class="panel-body">
+								<div class="alert alert-info" align="center" style="font-weight:bold;">
+					            	No Details Available
+					        	</div>
+							</div>
+						</div>
+					</div>';
+			return $html;
+		}
+
+		$html .='<div class="panel-body">';
+        $html .='<div class="col-lg-12">';
+    	$html .='<div class="panel panel-default">
+    				<div class="panel-heading">Qualifications ('.count($res).')</div>';
+    	$html .='<div class="panel-body">
+                        <div class="table-responsive">
+				        	<table class="table table-striped table-bordered table-hover team_view_leaves" >
+		                            <thead>
+		                            	<tr>
+			                                <th>#</th>
+											<th>Board</th>
+											<th>Type</th>
+											<th>Course Name</th>
+											<th>Total Mark</th>
+											<th>Obtained Mark</th>
+											<th>Percentage</th>
+											<th>Year Of Passing</th>
+											<th>Grade</th>
+											<th>Remarks</th>
+										</tr>
+		                            </thead>';
+        $count =1;
+        foreach ($res as $values) {
+        		$html .='<tbody>
+        					<tr>
+								<td>'.$count.'</td>
+								<td>'.$values['board'].'</td>
+								<td>'.$values['type'].'</td>
+								<td>'.$values['course_name'].'</td>
+								<td>'.$values['total_mark'].'</td>
+								<td>'.$values['obtained_mark'].'</td>
+								<td>'.$values['percentage'].'</td>
+								<td>'.$values['year_of_passing'].'</td>
+								<td>'.$values['grade'].'</td>';
+				  if(strlen($values['remarks'])<=30){
+    					$html .='<td style="cursor:pointer;" title="'.$values['remarks'].'">'.$values['remarks'].'</td>';
+  				  }else{
+  						$html .='<td style="cursor:pointer;" title="'.$values['remarks'].'">'.substr($values['remarks'],0,30).' ...</td>';  	
+  				  }
+        		$html .='</tr>
+        				 </tbody>';
+        	$count++;
+        }
+    	$html .='</table>
+    			 </div>
+    			 </div>';
+    	$html .='</div>';
+    	return $html;
+	}
+
+	function save_emp_qualification($data){
+ 		$json = json_decode($data);
+ 		$sql = 'INSERT INTO emp_qualification 
+							(emp_id, upload_date,
+							 code, doc_file,
+							course,  in_hand,line_no_,
+							remarks) VALUES';
+		$sql .= "('".addslashes($_SESSION['emp_id'])."',
+				  '".$this->dmy2ymd($_SESSION['workDate'])."',
+				  '".addslashes($json->doc_code)."',
+				  '".addslashes($json->doc_file)."',
+				  '".addslashes($json->course)."',
+				  '".addslashes($json->in_hand)."',
+				  '10000',
+				  '".addslashes($json->remarks)."')";
+		 $res = $this->db_write($sql);
+		if($res > 0 ){
+			return '1';
+		}else{
+			return '0';
+		}
+	}
+
+	function get_emp_experience(){
+		$sql ="SELECT 
+				company_name,
+				total_exp,
+				date_format(doj,'%d-%m-%Y')as doj,
+				date_format(dol,'%d-%m-%Y')as dol,
+				designation,
+				role,
+				team_size,
+				ctc,
+				remarks 
+				FROM emp_experience
+				WHERE emp_id ='".$_SESSION['emp_id']."' ";
+		$res=$this->db_result($sql);
+		$html ='';
+		if(!count($res)){
+			$html .='<div class="row">
+                		<div class="col-lg-6 col-md-offset-3">
+                    		<div class="panel-body">
+								<div class="alert alert-info" align="center" style="font-weight:bold;">
+					            	No Details Available
+					        	</div>
+							</div>
+						</div>
+					</div>';
+			return $html;
+		}
+
+		$html .='<div class="panel-body">';
+        $html .='<div class="col-lg-12">';
+    	$html .='<div class="panel panel-default">
+    				<div class="panel-heading">Experience ('.count($res).')</div>';
+    	$html .='<div class="panel-body">
+                        <div class="table-responsive">
+				        	<table class="table table-striped table-bordered table-hover team_view_leaves" >
+		                            <thead>
+		                            	<tr>
+			                                <th>#</th>
+											<th>Company Name</th>
+											<th>Total Experience</th>
+											<th>Date Of Join </th>
+											<th>Date Of Leaving</th>
+											<th>Designation </th>
+											<th>Role</th>
+											<th>Team Size </th>
+											<th>CTC</th>
+											<th>Remarks</th>
+										</tr>
+		                            </thead>';
+        $count =1;
+        foreach ($res as $values) {
+        		$html .='<tbody>
+        					<tr>
+								<td>'.$count.'</td>
+								<td>'.$values['company_name'].'</td>
+								<td>'.$values['total_exp'].'</td>
+								<td>'.$values['doj'].'</td>
+								<td>'.$values['dol'].'</td>
+								<td>'.$values['designation'].'</td>
+								<td>'.$values['role'].'</td>
+								<td>'.$values['team_size'].'</td>
+								<td>'.$values['ctc'].'</td>';
+				  if(strlen($values['remarks'])<=30){
+    					$html .='<td style="cursor:pointer;" title="'.$values['remarks'].'">'.$values['remarks'].'</td>';
+  				  }else{
+  						$html .='<td style="cursor:pointer;" title="'.$values['remarks'].'">'.substr($values['remarks'],0,30).' ...</td>';  	
+  				  }
+        		$html .='</tr>
+        				 </tbody>';
+        	$count++;
+        }
+    	$html .='</table>
+    			 </div>
+    			 </div>';
+    	$html .='</div>';
+    	return $html;
+	}
+
+	function save_emp_experience($data){
+ 		$json = json_decode($data);
+ 		$sql = 'INSERT INTO emp_qualification 
+							(emp_id, upload_date,
+							 code, doc_file,
+							course,  in_hand,line_no_,
+							remarks) VALUES';
+		$sql .= "('".addslashes($_SESSION['emp_id'])."',
+				  '".$this->dmy2ymd($_SESSION['workDate'])."',
+				  '".addslashes($json->doc_code)."',
+				  '".addslashes($json->doc_file)."',
+				  '".addslashes($json->course)."',
+				  '".addslashes($json->in_hand)."',
+				  '10000',
+				  '".addslashes($json->remarks)."')";
+		 $res = $this->db_write($sql);
+		if($res > 0 ){
+			return '1';
+		}else{
+			return '0';
+		}
+	}
+
+
+	function get_emp_projects(){
+		$sql ="SELECT 
+				code,
+				name,
+				reporting_to,
+				is_completed,
+				remarks
+				FROM emp_projects
+				WHERE emp_id ='".$_SESSION['emp_id']."' ";
+		$res=$this->db_result($sql);
+		$html ='';
+		if(!count($res)){
+			$html .='<div class="row">
+                		<div class="col-lg-6 col-md-offset-3">
+                    		<div class="panel-body">
+								<div class="alert alert-info" align="center" style="font-weight:bold;">
+					            	No Details Available
+					        	</div>
+							</div>
+						</div>
+					</div>';
+			return $html;
+		}
+
+		$html .='<div class="panel-body">';
+        $html .='<div class="col-lg-12">';
+    	$html .='<div class="panel panel-default">
+    				<div class="panel-heading">Projects ('.count($res).')</div>';
+    	$html .='<div class="panel-body">
+                        <div class="table-responsive">
+				        	<table class="table table-striped table-bordered table-hover team_view_leaves" >
+		                            <thead>
+		                            	<tr>
+			                                <th>#</th>
+											<th>Code</th>
+											<th>Name</th>
+											<th>Reporting To</th>
+											<th>Is Completed</th>
+											<th>Remarks</th>
+										</tr>
+		                            </thead>';
+        $count =1;
+        foreach ($res as $values) {
+			$complete = ($values['is_completed']) ? "checked":"";
+
+        		$html .='<tbody>
+        					<tr>
+								<td>'.$count.'</td>
+								<td>'.$values['code'].'</td>
+								<td>'.$values['name'].'</td>
+								<td>'.$values['reporting_to'].'</td>
+								<td><input type="checkbox" '.$complete.' disabled></td>';
+				  if(strlen($values['remarks'])<=30){
+    					$html .='<td style="cursor:pointer;" title="'.$values['remarks'].'">'.$values['remarks'].'</td>';
+  				  }else{
+  						$html .='<td style="cursor:pointer;" title="'.$values['remarks'].'">'.substr($values['remarks'],0,30).' ...</td>';  	
+  				  }
+        		$html .='</tr>
+        				 </tbody>';
+        	$count++;
+        }
+    	$html .='</table>
+    			 </div>
+    			 </div>';
+    	$html .='</div>';
+    	return $html;
+	}
+	function save_emp_projects($data){
+ 		$json = json_decode($data);
+ 		$sql = 'INSERT INTO emp_projects 
+							(emp_id, upload_date,
+							 code, doc_file,
+							course,  in_hand,line_no_,
+							remarks) VALUES';
+		$sql .= "('".addslashes($_SESSION['emp_id'])."',
+				  '".$this->dmy2ymd($_SESSION['workDate'])."',
+				  '".addslashes($json->doc_code)."',
+				  '".addslashes($json->doc_file)."',
+				  '".addslashes($json->course)."',
+				  '".addslashes($json->in_hand)."',
+				  '10000',
+				  '".addslashes($json->remarks)."')";
+		 $res = $this->db_write($sql);
+		if($res > 0 ){
+			return '1';
+		}else{
+			return '0';
+		}
+	}
+
+
+	function get_emp_visa(){
+		$sql ="SELECT 
+				type,
+				country,
+				start_date,
+				end_date,
+				remarks
+				FROM emp_visa
+				WHERE emp_id ='".$_SESSION['emp_id']."' ";
+		$res=$this->db_result($sql);
+		$html ='';
+		if(!count($res)){
+			$html .='<div class="row">
+                		<div class="col-lg-6 col-md-offset-3">
+                    		<div class="panel-body">
+								<div class="alert alert-info" align="center" style="font-weight:bold;">
+					            	No Details Available
+					        	</div>
+							</div>
+						</div>
+					</div>';
+			return $html;
+		}
+
+		$html .='<div class="panel-body">';
+        $html .='<div class="col-lg-12">';
+    	$html .='<div class="panel panel-default">
+    				<div class="panel-heading">Visa ('.count($res).')</div>';
+    	$html .='<div class="panel-body">
+                        <div class="table-responsive">
+				        	<table class="table table-striped table-bordered table-hover team_view_leaves" >
+		                            <thead>
+		                            	<tr>
+			                                <th>#</th>
+											<th>Type</th>
+											<th>Country</th>
+											<th>Start Date Name</th>
+											<th>End Date Mark</th>
+											<th>Remarks</th>
+										</tr>
+		                            </thead>';
+        $count =1;
+        foreach ($res as $values) {
+        		$html .='<tbody>
+        					<tr>
+								<td>'.$count.'</td>
+								<td>'.$values['type'].'</td>
+								<td>'.$values['country'].'</td>
+								<td>'.$values['start_date'].'</td>
+								<td>'.$values['end_date'].'</td>';
+				  if(strlen($values['remarks'])<=30){
+    					$html .='<td style="cursor:pointer;" title="'.$values['remarks'].'">'.$values['remarks'].'</td>';
+  				  }else{
+  						$html .='<td style="cursor:pointer;" title="'.$values['remarks'].'">'.substr($values['remarks'],0,30).' ...</td>';  	
+  				  }
+        		$html .='</tr>
+        				 </tbody>';
+        	$count++;
+        }
+    	$html .='</table>
+    			 </div>
+    			 </div>';
+    	$html .='</div>';
+    	return $html;
+	}
+
+	function save_emp_visa($data){
+ 		$json = json_decode($data);
+ 		$sql = 'INSERT INTO emp_visa
 							(emp_id, upload_date,
 							 code, doc_file,
 							course,  in_hand,line_no_,
