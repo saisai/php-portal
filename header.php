@@ -334,6 +334,9 @@
                                 <li>
                                     <a href="#"><i class="fa fa-desktop fa-fw"></i> Projects</a>
                                 </li>
+                                <li>
+                                    <a href="team_members.php"><i class="fa fa-group fa-fw"></i> Team Members</a>
+                                </li>
                             </ul>
 
                         </li>
