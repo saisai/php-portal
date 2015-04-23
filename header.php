@@ -323,16 +323,16 @@
                                     <a href="documents.php"><i class="fa fa-files-o fa-fw"></i> Documents</a>
                                 </li>
                                 <li>
-                                    <a href="#"><i class="fa fa-graduation-cap fa-fw"></i> Qualification</a>
+                                    <a href="qualification.php"><i class="fa fa-graduation-cap fa-fw"></i> Qualification</a>
                                 </li>
                                 <li>
-                                    <a href="#"><i class="fa fa-briefcase fa-fw"></i> Experience</a>
+                                    <a href="experience.php"><i class="fa fa-briefcase fa-fw"></i> Experience</a>
                                 </li>
                                 <li>
-                                    <a href="#"><i class="fa fa-plane fa-fw"></i> Visa</a>
+                                    <a href="visa.php"><i class="fa fa-plane fa-fw"></i> Visa</a>
                                 </li>
                                 <li>
-                                    <a href="#"><i class="fa fa-desktop fa-fw"></i> Projects</a>
+                                    <a href="projects.php"><i class="fa fa-desktop fa-fw"></i> Projects</a>
                                 </li>
                                 <li>
                                     <a href="team_members.php"><i class="fa fa-group fa-fw"></i> Team Members</a>
