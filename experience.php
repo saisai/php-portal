@@ -45,64 +45,64 @@ $get_emp_experience = $objPortal->get_emp_experience();
                                                         <div class="col-sm-4"> 
                                                             <label>Company Name</label>
                                                         </div>
-                                                        <div class="col-sm-8"> 
-                                                            <input type="text" id="company_name" size="30">
+                                                        <div class="col-sm-7"> 
+                                                            <input class="form-control" type="text" id="company_name" size="30">
                                                         </div>
                                                     </div>
                                                     <div class="form-group row"> 
                                                         <div class="col-sm-4">                                           
                                                             <label>Total Experience</label>
                                                         </div>
-                                                        <div class="col-sm-8">           
-                                                            <input type="text" id="total_experience" size="30">
+                                                        <div class="col-sm-7">           
+                                                            <input class="form-control" type="text" id="total_experience" size="30">
                                                         </div>
                                                     </div>
                                                     <div class="form-group row">
                                                         <div class="col-sm-4">                                           
                                                             <label>Date Of Join</label>
                                                         </div>
-                                                        <div class="col-sm-8">           
-                                                            <input type="text" id="date_join" size="30">
+                                                        <div class="col-sm-7">           
+                                                            <input class="form-control" type="text" id="date_join" size="30">
                                                         </div>
                                                     </div>
                                                     <div class="form-group row">
                                                         <div class="col-sm-4">                                           
                                                             <label>Date Of Leaving</label>
                                                         </div>
-                                                        <div class="col-sm-8">           
-                                                            <input type="text" id="date_leaving" size="30">
+                                                        <div class="col-sm-7">           
+                                                            <input class="form-control" type="text" id="date_leaving" size="30">
                                                         </div>
                                                     </div>
                                                     <div class="form-group row">
                                                         <div class="col-sm-4">
                                                             <label>Designation</label>
                                                         </div>
-                                                        <div class="col-sm-4">
-                                                            <input type="text" id="designation" size="30">
+                                                        <div class="col-sm-7">
+                                                            <input class="form-control" type="text" id="designation" size="30">
                                                        </div> 
                                                     </div>
                                                     <div class="form-group row">
                                                         <div class="col-sm-4">
                                                             <label>Role</label>
                                                         </div>
-                                                        <div class="col-sm-4">
-                                                            <input type="text" id="role" size="30">
+                                                        <div class="col-sm-7">
+                                                            <input class="form-control" type="text" id="role" size="30">
                                                         </div>
                                                     </div>
                                                     <div class="form-group row">
                                                         <div class="col-sm-4">
                                                             <label>Team Size</label>
                                                         </div>
-                                                        <div class="col-sm-4">
-                                                            <input type="text" id="ream_size" size="30">
+                                                        <div class="col-sm-7">
+                                                            <input class="form-control" type="text" id="ream_size" size="30">
                                                         </div>
                                                     </div>
                                                     <div class="form-group row">
                                                         <div class="col-sm-4">
                                                             <label>CTC</label>
                                                         </div>
-                                                        <div class="col-sm-4">
-                                                            <input type="text" id="ctc" size="30">
+                                                        <div class="col-sm-7">
+                                                            <input class="form-control" type="text" id="ctc" size="30">
                                                         </div>
                                                     </div>
 

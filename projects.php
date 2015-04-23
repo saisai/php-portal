@@ -45,7 +45,7 @@ $get_all_projects = $objPortal->get_all_projects();
                                                         <div class="col-sm-4"> 
                                                             <label>Code</label>
                                                         </div>
-                                                        <div class="col-sm-8"> 
+                                                        <div class="col-sm-7"> 
                                                             <select class="form-control" id="code">
                                                                 <?php echo $get_all_projects ?>
                                                             </select>
@@ -55,24 +55,24 @@ $get_all_projects = $objPortal->get_all_projects();
                                                         <div class="col-sm-4">                                           
                                                             <label>Name</label>
                                                         </div>
-                                                        <div class="col-sm-8">           
-                                                            <input type="text" id="Project_name" size="30">
+                                                        <div class="col-sm-7">           
+                                                            <input class="form-control" type="text" id="Project_name" size="30">
                                                         </div>
                                                     </div>
                                                     <div class="form-group row">
                                                         <div class="col-sm-4">                                           
                                                             <label>Reporting To</label>
                                                         </div>
-                                                        <div class="col-sm-8">           
-                                                            <input type="text" id="report" size="30">
+                                                        <div class="col-sm-7">           
+                                                            <input class="form-control" type="text" id="report" size="30">
                                                         </div>
                                                     </div>
                                                     <div class="form-group row">
                                                         <div class="col-sm-4">                                           
                                                             <label>Is Completed</label>
                                                         </div>
-                                                        <div class="col-sm-8">           
-                                                            <input type="checkbox" id="is_completed" size="30">
+                                                        <div class="col-sm-7">           
+                                                            <input class="form-control" type="checkbox" id="is_completed" size="30">
                                                         </div>
                                                     </div>                                                    
                                                     <div class="form-group row">

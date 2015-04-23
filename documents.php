@@ -44,7 +44,7 @@ $get_all_documents = $objPortal->get_all_documents();
                                                         <div class="col-sm-4"> 
                                                              <label>Document Type</label>
                                                         </div>
-                                                        <div class="col-sm-8"> 
+                                                        <div class="col-sm-7"> 
                                                            <select class="form-control" id="document_type">
                                                             <?php echo $get_all_documents ?>
                                                         </select>
@@ -54,7 +54,7 @@ $get_all_documents = $objPortal->get_all_documents();
                                                         <div class="col-sm-4">                                           
                                                              <label>Document File</label>
                                                         </div>
-                                                        <div class="col-sm-8">           
+                                                        <div class="col-sm-7">           
                                                             <input type="file" id="doc_file">
                                                         </div>
                                                     </div>
@@ -62,7 +62,7 @@ $get_all_documents = $objPortal->get_all_documents();
                                                         <div class="col-sm-4">                                           
                                                             <label>Course</label>
                                                         </div>
-                                                        <div class="col-sm-8">           
+                                                        <div class="col-sm-7">           
                                                             <select class="form-control" id="course_type">
                                                             <option value="">Select Any Value</option>
                                                             <option value="REGULAR">Regular</option>
@@ -74,7 +74,7 @@ $get_all_documents = $objPortal->get_all_documents();
                                                         <div class="col-sm-4">                                           
                                                             <label>Given</label>
                                                         </div>
-                                                        <div class="col-sm-8">           
+                                                        <div class="col-sm-7">           
                                                             <select class="form-control" id="in_hand">
                                                             <option value="">Select Any Value</option>
                                                             <option value="org">Original</option>
