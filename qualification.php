@@ -45,7 +45,7 @@ $get_all_qualifications = $objPortal->get_all_qualifications();
                                                         <div class="col-sm-4"> 
                                                             <label>Course Type</label>
                                                         </div>
-                                                        <div class="col-sm-8"> 
+                                                        <div class="col-sm-7"> 
                                                             <select class="form-control" id="course_type">
                                                                 <?php echo $get_all_qualifications ?>
                                                             </select>
@@ -55,56 +55,56 @@ $get_all_qualifications = $objPortal->get_all_qualifications();
                                                         <div class="col-sm-4">                                           
                                                             <label>Board Name</label>
                                                         </div>
-                                                        <div class="col-sm-8">           
-                                                            <input type="text" id="board_name" size="30">
+                                                        <div class="col-sm-7">           
+                                                            <input class="form-control" type="text" id="board_name" size="30">
                                                         </div>
                                                     </div>
                                                     <div class="form-group row">
                                                         <div class="col-sm-4">                                           
                                                             <label>Course Name</label>
                                                         </div>
-                                                        <div class="col-sm-8">           
-                                                            <input type="text" id="course_name" size="30">
+                                                        <div class="col-sm-7">           
+                                                            <input class="form-control" type="text" id="course_name" size="30">
                                                         </div>
                                                     </div>
                                                     <div class="form-group row">
                                                         <div class="col-sm-4">                                           
                                                             <label>Total Mark</label>
                                                         </div>
-                                                        <div class="col-sm-8">           
-                                                            <input type="text" id="total_mark" size="30">
+                                                        <div class="col-sm-7">           
+                                                            <input class="form-control" type="text" id="total_mark" size="30">
                                                         </div>
                                                     </div>
                                                     <div class="form-group row">
                                                         <div class="col-sm-4">
                                                             <label>Earned Mark</label>
                                                         </div>
-                                                        <div class="col-sm-4">
-                                                            <input type="text" id="obtained_mark" size="30">
+                                                        <div class="col-sm-7">
+                                                            <input class="form-control" type="text" id="obtained_mark" size="30">
                                                        </div> 
                                                     </div>
                                                     <div class="form-group row">
                                                         <div class="col-sm-4">
                                                             <label>Percentage</label>
                                                         </div>
-                                                        <div class="col-sm-4">
-                                                            <input type="text" id="percentage" size="30" disabled>
+                                                        <div class="col-sm-7">
+                                                            <input class="form-control" type="text" id="percentage" size="30" disabled>
                                                         </div>
                                                     </div>
                                                     <div class="form-group row">
                                                         <div class="col-sm-4">
                                                             <label>Year Of Passing</label>
                                                         </div>
-                                                        <div class="col-sm-4">
-                                                            <input type="text" id="year_of_passing" size="30">
+                                                        <div class="col-sm-7">
+                                                            <input class="form-control" type="text" id="year_of_passing" size="30">
                                                         </div>
                                                     </div>
                                                     <div class="form-group row">
                                                         <div class="col-sm-4">
                                                             <label>Grade</label>
                                                         </div>
-                                                        <div class="col-sm-4">
-                                                            <input type="text" id="grade" size="30">
+                                                        <div class="col-sm-7">
+                                                            <input class="form-control" type="text" id="grade" size="30">
                                                         </div>
                                                     </div>
 

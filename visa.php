@@ -45,8 +45,8 @@ $get_emp_visa = $objPortal->get_emp_visa();
                                                         <div class="col-sm-4"> 
                                                             <label>Type</label>
                                                         </div>
-                                                        <div class="col-sm-8"> 
-                                                           <input type="text" id="type" size="30">
+                                                        <div class="col-sm-7"> 
+                                                           <input class="form-control" type="text" id="type" size="30">
                                                                 
                                                         </div>
                                                     </div>
@@ -54,24 +54,24 @@ $get_emp_visa = $objPortal->get_emp_visa();
                                                         <div class="col-sm-4">                                           
                                                             <label>Country</label>
                                                         </div>
-                                                        <div class="col-sm-8">           
-                                                            <input type="text" id="country" size="30">
+                                                        <div class="col-sm-7">           
+                                                            <input class="form-control" type="text" id="country" size="30">
                                                         </div>
                                                     </div>
                                                     <div class="form-group row">
                                                         <div class="col-sm-4">                                           
                                                             <label>Start Date</label>
                                                         </div>
-                                                        <div class="col-sm-8">           
-                                                            <input type="text" id="start_date" size="30">
+                                                        <div class="col-sm-7">           
+                                                            <input class="form-control" type="text" id="start_date" size="30">
                                                         </div>
                                                     </div>
                                                     <div class="form-group row">
                                                         <div class="col-sm-4">                                           
                                                             <label>End Date</label>
                                                         </div>
-                                                        <div class="col-sm-8">           
-                                                            <input type="text" id="end_date" size="30">
+                                                        <div class="col-sm-7">           
+                                                            <input class="form-control" type="text" id="end_date" size="30">
                                                         </div>
                                                     </div>                                                    
                                                     <div class="form-group row">
