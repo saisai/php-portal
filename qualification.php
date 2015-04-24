@@ -31,14 +31,14 @@ $get_all_qualifications = $objPortal->get_all_qualifications();
                             <div class="panel-body">
                                 <div class="row">
                                     <div class="col-lg-11">
-                                        <button class="btn btn-primary pull-right" data-toggle="modal" data-target="#emp_doc_model"><i class="fa fa-plus fa-fw"></i> Add New</button>
+                                        <button class="btn btn-primary pull-right" data-toggle="modal" data-target="#emp_qualification_model"><i class="fa fa-plus fa-fw"></i> Add New</button>
                                     </div>
-                                    <div class="modal fade" id="emp_doc_model" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal fade" id="emp_qualification_model" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                                         <div class="modal-dialog">
                                             <div class="modal-content">
                                                 <div class="modal-header">
                                                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                                    <h4 class="modal-title" id="myModalLabel">Add New</h4>
+                                                    <h4 class="modal-title" id="myModalLabel">Add New Qualifications</h4>
                                                 </div>
                                                 <div class="modal-body">
                                                     <div class="form-group row">
@@ -56,7 +56,7 @@ $get_all_qualifications = $objPortal->get_all_qualifications();
                                                             <label>Board Name</label>
                                                         </div>
                                                         <div class="col-sm-7">           
-                                                            <input class="form-control" type="text" id="board_name" size="30">
+                                                            <input class="form-control" type="text" id="board_name" size="30" placeholder="University Name">
                                                         </div>
                                                     </div>
                                                     <div class="form-group row">
@@ -71,29 +71,27 @@ $get_all_qualifications = $objPortal->get_all_qualifications();
                                                         <div class="col-sm-4">                                           
                                                             <label>Total Mark</label>
                                                         </div>
-                                                        <div class="col-sm-7">           
-                                                            <input class="form-control" type="text" id="total_mark" size="30">
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group row">
                                                         <div class="col-sm-4">
                                                             <label>Earned Mark</label>
                                                         </div>
-                                                        <div class="col-sm-7">
-                                                            <input class="form-control" type="text" id="obtained_mark" size="30">
-                                                       </div> 
-                                                    </div>
-                                                    <div class="form-group row">
                                                         <div class="col-sm-4">
                                                             <label>Percentage</label>
                                                         </div>
-                                                        <div class="col-sm-7">
+                                                    </div>
+                                                    <div class="form-group row">
+                                                        <div class="col-sm-4">           
+                                                            <input class="form-control" type="text" id="total_mark" size="30">
+                                                        </div>
+                                                        <div class="col-sm-4">
+                                                            <input class="form-control" type="text" id="obtained_mark" size="30">
+                                                       </div> 
+                                                        <div class="col-sm-4">
                                                             <input class="form-control" type="text" id="percentage" size="30" disabled>
                                                         </div>
                                                     </div>
                                                     <div class="form-group row">
                                                         <div class="col-sm-4">
-                                                            <label>Year Of Passing</label>
+                                                            <label>Passing Year</label>
                                                         </div>
                                                         <div class="col-sm-7">
                                                             <input class="form-control" type="text" id="year_of_passing" size="30">
@@ -118,7 +116,7 @@ $get_all_qualifications = $objPortal->get_all_qualifications();
                                                 </div>
                                                 <div class="modal-footer">
                                                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                                    <button type="button" class="btn btn-primary" id="save_emp_documents">Save changes</button>
+                                                    <button type="button" class="btn btn-primary" id="save_emp_qualification">Save changes</button>
                                                 </div>
                                             </div>
                                             <!-- /.modal-content -->

@@ -31,9 +31,9 @@ $get_emp_visa = $objPortal->get_emp_visa();
                             <div class="panel-body">
                                 <div class="row">
                                     <div class="col-lg-11">
-                                        <button class="btn btn-primary pull-right" data-toggle="modal" data-target="#emp_doc_model"><i class="fa fa-plus fa-fw"></i> Add New</button>
+                                        <button class="btn btn-primary pull-right" data-toggle="modal" data-target="#emp_visa_model"><i class="fa fa-plus fa-fw"></i> Add New</button>
                                     </div>
-                                    <div class="modal fade" id="emp_doc_model" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal fade" id="emp_visa_model" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                                         <div class="modal-dialog">
                                             <div class="modal-content">
                                                 <div class="modal-header">
@@ -63,7 +63,7 @@ $get_emp_visa = $objPortal->get_emp_visa();
                                                             <label>Start Date</label>
                                                         </div>
                                                         <div class="col-sm-7">           
-                                                            <input class="form-control" type="text" id="start_date" size="30">
+                                                            <input class="form-control date_picker" type="text" id="start_date" size="30">
                                                         </div>
                                                     </div>
                                                     <div class="form-group row">
@@ -71,20 +71,19 @@ $get_emp_visa = $objPortal->get_emp_visa();
                                                             <label>End Date</label>
                                                         </div>
                                                         <div class="col-sm-7">           
-                                                            <input class="form-control" type="text" id="end_date" size="30">
+                                                            <input class="form-control date_picker" type="text" id="end_date" size="30">
                                                         </div>
                                                     </div>                                                    
                                                     <div class="form-group row">
                                                         <div class="col-sm-12">
                                                             <label>Remarks</label>
-                                                        
                                                             <textarea class="form-control" rows="3" id="remarks" cols="30" ></textarea>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="modal-footer">
                                                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                                    <button type="button" class="btn btn-primary" id="save_emp_documents">Save changes</button>
+                                                    <button type="button" class="btn btn-primary" id="save_emp_visa">Save changes</button>
                                                 </div>
                                             </div>
                                             <!-- /.modal-content -->
@@ -105,12 +104,20 @@ include_once("fotter.php");
 
 $html ='<script type="text/javascript">
             $(document).ready(function () {
-                $("#total_leaves").DataTable({
+                /*$("#total_leaves").DataTable({
                     responsive: true
+                });*/
+                var date = new Date();
+                date.setDate(date.getDate());
+                $(".date_picker").datepicker({
+                    format: "dd-mm-yyyy",
+                    autoclose: true,
+                    todayHighlight: true,
+                    setDate:new Date()
                 });
             });
         </script>';
-//echo $html;
+echo $html;
 
 }
 ?>

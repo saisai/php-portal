@@ -333,8 +333,8 @@ class DataBase{
 		$html ='';
 		if(count($res)){
 			$html .='<div id ="div_calendar">';
-			$html .='<div><h3>Details View</h3></div><br />';
 			$html .='<table border=1 style="width:auto; height:auto; border-collapse:collapse;" class="table table-striped table-bordered table-hover" align="center">';
+			$html .='<tr><th colspan="9">My Leave Details for year: '.$_SESSION['leave_year'].'</th></tr>';
 			$html .='<tr class="ui-widget-header ui-corner-all">
 						<th>#</th>
 						<th>Posting Date</th>

@@ -25,6 +25,12 @@ $("#update_password").click(function(){
 	function(data)
 	{
 		console.log(data)
+		if(data >= 1){
+			show_notification("New Password Saved Successfully","success");
+			location.reload();
+		}else{
+			show_notification("New Password Save Failed... Try again","danger");
+		}
 	});
 });
 
@@ -47,7 +53,7 @@ $('#my_settings_form').validator().on('submit', function (e) {
 })
 */
 
-$('#selected_all_box').click(function(event) {  //on click
+$('.selected_all_box').click(function(event) {  //on click
     if(this.checked) { // check select status
         $('.get_selected_box').each(function() { //loop through each checkbox
             this.checked = true;  //select all checkboxes with class "checkbox1"              
@@ -132,15 +138,12 @@ $("#apply_leave").click(function(){
 		$.post("ajaxpage.php",{submit : "commonAction",data:data},
 		function(data)
 		{
-			/*if(data == 1){
-				show_notification("Post successfully","success");
-				$("#dialog").dialog("destroy");
-				objReport.renderReport();
+			if(data == 1){
+				show_notification("Leave Request Sent Successfully","success");
+				location.reload();
 			}else{
-				show_notification("Server Connection Problem...Try again","danger");
+				show_notification("Leave Request Send Failed... Try again","danger");
 			}
-			removeLoading();*/
-			console.log(data);
 		});
 });
 
@@ -155,11 +158,6 @@ var get_selected_members = function (){
 }
 
 var save_team_leave_status = function (slno,status){
-		/*if($("#action_status").val() == ""){
-			show_notification("Please Select Any action","danger");
-			return false;
-		}
-		*/
 		var getJsonData =  {
 			className 	: "Portal",
 			methodName 	: "save_team_leave_status",
@@ -171,14 +169,12 @@ var save_team_leave_status = function (slno,status){
 		$.post("ajaxpage.php",{submit : "commonAction",data:data},
 		function(data)
 		{
-			/*if(data == 1){
-				show_notification("Post successfully","success");
-				$("#dialog").dialog("destroy");
-				objReport.renderReport();
+			if(data >= 1){
+				show_notification("Leave Request Sent Successfully","success");
+				location.reload();
 			}else{
-				show_notification("Server Connection Problem...Try again","danger");
-			}*/
-			console.log(data);
+				show_notification("Leave Request Send Failed... Try again","danger");
+			}
 		});
 }
 
@@ -223,3 +219,113 @@ $("#save_emp_documents").click(function (){
 		});
 });
 /*End Emp Documents*/
+
+/*Start Emp qualification*/
+
+$("#save_emp_qualification").click(function (){
+	var getJsonData =  {
+			className 	 	: "Portal",
+			methodName 	 	: "save_emp_qualification",
+			course_type 	: $("#course_type").val(),
+			board_name 	 	: $("#board_name").val(),
+			course_name  	: $("#course_name").val(),
+			total_mark 	 	: $("#total_mark").val(),
+			obtained_mark 	: $("#obtained_mark").val(),
+			percentage 	 	: $("#percentage").val(),
+			year_of_passing : $("#year_of_passing").val(),
+			grade 	 		: $("#grade").val(),
+			remarks 	 	: $("#remarks").val()
+		};
+		var data = JSON.stringify(getJsonData);
+		$.post("ajaxpage.php",{submit : "commonAction",data:data},
+		function(data)
+		{
+			if(data == 1){
+				show_notification("Qualification Saved Successfully","success");
+				location.reload();
+			}else{
+				show_notification("Qualification Saved Failed... Try again","danger");
+			}
+		});
+});
+/*END Emp qualification*/
+
+/*Start Emp Experience*/
+$("#save_emp_experience").click(function (){
+	var getJsonData =  {
+			className 	 		: "Portal",
+			methodName 	 		: "save_emp_experience",
+			company_name 		: $("#company_name").val(),
+			total_experience 	: $("#total_experience").val(),
+			date_join  			: $("#date_join").val(),
+			date_leaving 	 	: $("#date_leaving").val(),
+			designation 		: $("#designation").val(),
+			role 	 			: $("#role").val(),
+			team_size 			: $("#team_size").val(),
+			ctc 	 			: $("#ctc").val(),
+			remarks 	 		: $("#remarks").val()
+		};
+		var data = JSON.stringify(getJsonData);
+		$.post("ajaxpage.php",{submit : "commonAction",data:data},
+		function(data)
+		{
+			if(data == 1){
+				show_notification("Experience Saved Successfully","success");
+				location.reload();
+			}else{
+				show_notification("Experience Saved Failed... Try again","danger");
+			}
+		});
+});
+
+/*END Emp Experience*/
+
+/*Start Emp Visa*/
+$("#save_emp_visa").click(function (){
+	var getJsonData =  {
+			className 	 		: "Portal",
+			methodName 	 		: "save_emp_visa",
+			type 				: $("#type").val(),
+			country  			: $("#country").val(),
+			start_date 	 		: $("#start_date").val(),
+			end_date 			: $("#end_date").val(),
+			remarks 	 		: $("#remarks").val()
+		};
+		var data = JSON.stringify(getJsonData);
+		$.post("ajaxpage.php",{submit : "commonAction",data:data},
+		function(data)
+		{
+			if(data == 1){
+				show_notification("VisaExperience Saved Successfully","success");
+				location.reload();
+			}else{
+				show_notification("VisaExperience Saved Failed... Try again","danger");
+			}
+		});
+});
+/*END Emp Visa*/
+
+/*Start Emp Projects*/
+$("#save_emp_projects").click(function (){
+	var getJsonData =  {
+			className 	 		: "Portal",
+			methodName 	 		: "save_emp_projects",
+			project_code		: $("#project_code").val(),
+			company_name		: $("#company_name").val(),
+			reporting_to		: $("#reporting_to").val(),
+			is_completed		: '1', //'$("#is_completed").val()',
+			remarks				: $("#remarks").val()
+		};
+		var data = JSON.stringify(getJsonData);
+		$.post("ajaxpage.php",{submit : "commonAction",data:data},
+		function(data)
+		{
+			if(data == 1){
+				show_notification("Projects Saved Successfully","success");
+				location.reload();
+			}else{
+				show_notification("Projects Saved Failed... Try again","danger");
+			}
+		});
+});
+/*END Emp Projects*/

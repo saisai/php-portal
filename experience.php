@@ -31,9 +31,9 @@ $get_emp_experience = $objPortal->get_emp_experience();
                             <div class="panel-body">
                                 <div class="row">
                                     <div class="col-lg-11">
-                                        <button class="btn btn-primary pull-right" data-toggle="modal" data-target="#emp_doc_model"><i class="fa fa-plus fa-fw"></i> Add Experience</button>
+                                        <button class="btn btn-primary pull-right" data-toggle="modal" data-target="#emp_exp_model"><i class="fa fa-plus fa-fw"></i> Add Experience</button>
                                     </div>
-                                    <div class="modal fade" id="emp_doc_model" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal fade" id="emp_exp_model" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                                         <div class="modal-dialog">
                                             <div class="modal-content">
                                                 <div class="modal-header">
@@ -53,24 +53,22 @@ $get_emp_experience = $objPortal->get_emp_experience();
                                                         <div class="col-sm-4">                                           
                                                             <label>Total Experience</label>
                                                         </div>
-                                                        <div class="col-sm-7">           
+                                                        <div class="col-sm-4">                                           
+                                                            <label>Joining Date</label>
+                                                        </div>
+                                                         <div class="col-sm-4">                                           
+                                                            <label>Leaving Date</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                         <div class="col-sm-4">           
                                                             <input class="form-control" type="text" id="total_experience" size="30">
                                                         </div>
-                                                    </div>
-                                                    <div class="form-group row">
-                                                        <div class="col-sm-4">                                           
-                                                            <label>Date Of Join</label>
+                                                        <div class="col-sm-4">           
+                                                            <input class="form-control date_picker" type="text" id="date_join" size="30">
                                                         </div>
-                                                        <div class="col-sm-7">           
-                                                            <input class="form-control" type="text" id="date_join" size="30">
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group row">
-                                                        <div class="col-sm-4">                                           
-                                                            <label>Date Of Leaving</label>
-                                                        </div>
-                                                        <div class="col-sm-7">           
-                                                            <input class="form-control" type="text" id="date_leaving" size="30">
+                                                        <div class="col-sm-4">           
+                                                            <input class="form-control date_picker" type="text" id="date_leaving" size="30">
                                                         </div>
                                                     </div>
                                                     <div class="form-group row">
@@ -94,7 +92,7 @@ $get_emp_experience = $objPortal->get_emp_experience();
                                                             <label>Team Size</label>
                                                         </div>
                                                         <div class="col-sm-7">
-                                                            <input class="form-control" type="text" id="ream_size" size="30">
+                                                            <input class="form-control" type="text" id="team_size" size="30">
                                                         </div>
                                                     </div>
                                                     <div class="form-group row">
@@ -116,7 +114,7 @@ $get_emp_experience = $objPortal->get_emp_experience();
                                                 </div>
                                                 <div class="modal-footer">
                                                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                                    <button type="button" class="btn btn-primary" id="save_emp_documents">Save changes</button>
+                                                    <button type="button" class="btn btn-primary" id="save_emp_experience">Save changes</button>
                                                 </div>
                                             </div>
                                             <!-- /.modal-content -->
@@ -137,12 +135,21 @@ include_once("fotter.php");
 
 $html ='<script type="text/javascript">
             $(document).ready(function () {
-                $("#total_leaves").DataTable({
+                /*$("#total_leaves").DataTable({
                     responsive: true
+                });*/
+                
+                var date = new Date();
+                date.setDate(date.getDate());
+                $(".date_picker").datepicker({
+                    format: "dd-mm-yyyy",
+                    autoclose: true,
+                    todayHighlight: true,
+                    setDate:new Date()
                 });
             });
         </script>';
-//echo $html;
+echo $html;
 
 }
 ?>

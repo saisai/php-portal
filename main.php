@@ -8,6 +8,13 @@ if(!isset($_SESSION['user_id']) || $_SESSION['user_id']==''){
 else
 {
 include_once("header.php");
+include_once("portal.cls.php");
+
+$objPortal = new Portal;
+$comp_birthdays = $objPortal->get_current_month_birth_days();
+$list_of_holidays = $objPortal->list_of_holidays();
+$get_widget_data = $objPortal->get_widget_data();
+
 ?>
         <div id="page-wrapper">
             <div class="row">
@@ -26,12 +33,12 @@ include_once("header.php");
                                     <i class="fa fa-comments fa-5x"></i>
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div class="huge">26</div>
-                                    <div>New Comments!</div>
+                                    <div class="huge"><?php echo $get_widget_data['doc_count']; ?></div>
+                                    <div>Documents Uploaded</div>
                                 </div>
                             </div>
                         </div>
-                        <a href="#">
+                        <a href="documents.php">
                             <div class="panel-footer">
                                 <span class="pull-left">View Details</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -48,12 +55,12 @@ include_once("header.php");
                                     <i class="fa fa-tasks fa-5x"></i>
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div class="huge">12</div>
-                                    <div>New Tasks!</div>
+                                    <div class="huge"><?php echo $get_widget_data['project_count']; ?></div>
+                                    <div>Project Count</div>
                                 </div>
                             </div>
                         </div>
-                        <a href="#">
+                        <a href="projects.php">
                             <div class="panel-footer">
                                 <span class="pull-left">View Details</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -70,12 +77,12 @@ include_once("header.php");
                                     <i class="fa fa-shopping-cart fa-5x"></i>
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div class="huge">124</div>
-                                    <div>New Orders!</div>
+                                    <div class="huge"><?php echo $get_widget_data['leave_apply']; ?></div>
+                                    <div>Leave Applied</div>
                                 </div>
                             </div>
                         </div>
-                        <a href="#">
+                        <a href="leaves.php">
                             <div class="panel-footer">
                                 <span class="pull-left">View Details</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -92,12 +99,12 @@ include_once("header.php");
                                     <i class="fa fa-support fa-5x"></i>
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div class="huge">13</div>
-                                    <div>Support Tickets!</div>
+                                    <div class="huge"><?php echo $get_widget_data['leave_approve']; ?></div>
+                                    <div>Leaves To Approval</div>
                                 </div>
                             </div>
                         </div>
-                        <a href="#">
+                        <a href="team_leaves.php">
                             <div class="panel-footer">
                                 <span class="pull-left">View Details</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -111,34 +118,10 @@ include_once("header.php");
             <div class="row">
                 <div class="col-lg-8">
                     <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <i class="fa fa-bar-chart-o fa-fw"></i> Area Chart Example
-                            <div class="pull-right">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
-                                        Actions
-                                        <span class="caret"></span>
-                                    </button>
-                                    <ul class="dropdown-menu pull-right" role="menu">
-                                        <li><a href="#">Action</a>
-                                        </li>
-                                        <li><a href="#">Another action</a>
-                                        </li>
-                                        <li><a href="#">Something else here</a>
-                                        </li>
-                                        <li class="divider"></li>
-                                        <li><a href="#">Separated link</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /.panel-heading -->
-                        <div class="panel-body">
-                            <div id="morris-area-chart"></div>
-                        </div>
-                        <!-- /.panel-body -->
-                    </div>
+                        <?php echo $comp_birthdays ?>
+
+                        <?php echo $list_of_holidays ?>
+
                     <!-- /.panel -->
                     <div class="panel panel-default">
                         <div class="panel-heading">
