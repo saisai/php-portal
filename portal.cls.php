@@ -258,7 +258,8 @@ class Portal extends DataBase
 					  returned 
 				FROM emp_documents ed
 				LEFT JOIN document d ON d.code = ed.code
-				WHERE emp_id ='".$_SESSION['emp_id']."' ";
+				WHERE emp_id ='".$_SESSION['emp_id']."'
+				ORDER BY ed.ts DESC ";
 		$res=$this->db_result($sql);
 		$html ='';
 		if(!count($res)){
@@ -470,7 +471,8 @@ class Portal extends DataBase
 				ctc,
 				remarks 
 				FROM emp_experience
-				WHERE emp_id ='".$_SESSION['emp_id']."' ";
+				WHERE emp_id ='".$_SESSION['emp_id']."' 
+				ORDER BY ts DESC";
 		$res=$this->db_result($sql);
 		$html ='';
 		if(!count($res)){
@@ -585,7 +587,8 @@ class Portal extends DataBase
 				FROM emp_projects ep
 				LEFT JOIN employee e ON e.id = ep.reporting_to 
 				WHERE emp_id ='".$_SESSION['emp_id']."'
-				 ".$filter." ";
+				 ".$filter." 
+				 ORDER BY ep.ts DESC";
 		$res=$this->db_result($sql);
 		$html ='';
 		if(!count($res)){
@@ -677,7 +680,8 @@ class Portal extends DataBase
 				end_date,
 				remarks
 				FROM emp_visa
-				WHERE emp_id ='".$_SESSION['emp_id']."' ";
+				WHERE emp_id ='".$_SESSION['emp_id']."' 
+				ORDER BY ts DESC";
 		$res=$this->db_result($sql);
 		$html ='';
 		if(!count($res)){

@@ -328,7 +328,8 @@ class DataBase{
 						remarks
 				FROM emp_leave_ledger
 				WHERE emp_id = '".$_SESSION['emp_id']."'
-				AND calc_year = '".$_SESSION['leave_year']."'";
+				AND calc_year = '".$_SESSION['leave_year']."'
+				ORDER BY ts DESC";
 		$res=$this->db_result($sql);		
 		$html ='';
 		if(count($res)){
@@ -337,7 +338,7 @@ class DataBase{
 			$html .='<tr><th colspan="9">My Leave Details for year: '.$_SESSION['leave_year'].'</th></tr>';
 			$html .='<tr class="ui-widget-header ui-corner-all">
 						<th>#</th>
-						<th>Posting Date</th>
+						<th>Apply Date</th>
 						<th>Type</th>
 						<th>Start Date</th>
 						<th>End Date</th>

@@ -338,7 +338,7 @@
                                     <a href="team_members.php"><i class="fa fa-group fa-fw"></i> Team Members</a>
                                 </li>
                                 <li>
-                                    <a href="circulars.php"><i class="fa fa-comments fa-fw"></i> Circulars</a>
+                                    <a href="circulars.php"><i class="fa fa-bullhorn fa-fw"></i> Circulars</a>
                                 </li>
                             </ul>
 
