@@ -46,7 +46,7 @@ $get_emp_visa = $objPortal->get_emp_visa();
                                                             <label>Type</label>
                                                         </div>
                                                         <div class="col-sm-7"> 
-                                                           <input class="form-control" type="text" id="type" size="30">
+                                                           <input class="form-control" type="text" id="type" placeholder="H1B">
                                                                 
                                                         </div>
                                                     </div>
@@ -55,29 +55,35 @@ $get_emp_visa = $objPortal->get_emp_visa();
                                                             <label>Country</label>
                                                         </div>
                                                         <div class="col-sm-7">           
-                                                            <input class="form-control" type="text" id="country" size="30">
+                                                            <input class="form-control" type="text" id="country" placeholder="USA">
                                                         </div>
                                                     </div>
                                                     <div class="form-group row">
                                                         <div class="col-sm-4">                                           
                                                             <label>Start Date</label>
                                                         </div>
-                                                        <div class="col-sm-7">           
-                                                            <input class="form-control date_picker" type="text" id="start_date" size="30">
+                                                        <div class="col-sm-7">  
+                                                            <div class="input-group date date_picker">          
+                                                                <input class="form-control" name="start_date" id="start_date" placeholder="Starting Date">
+                                                                <span  class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                                                            </div>  
                                                         </div>
                                                     </div>
                                                     <div class="form-group row">
                                                         <div class="col-sm-4">                                           
-                                                            <label>End Date</label>
+                                                            <label>Expired Date</label>
                                                         </div>
-                                                        <div class="col-sm-7">           
-                                                            <input class="form-control date_picker" type="text" id="end_date" size="30">
+                                                        <div class="col-sm-7"> 
+                                                            <div class="input-group date date_picker">          
+                                                                <input class="form-control" name="end_date" id="end_date" placeholder="Expired Date">
+                                                                <span  class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                                                            </div>  
                                                         </div>
                                                     </div>                                                    
                                                     <div class="form-group row">
                                                         <div class="col-sm-12">
                                                             <label>Remarks</label>
-                                                            <textarea class="form-control" rows="3" id="remarks" cols="30" ></textarea>
+                                                            <textarea class="form-control" rows="3" id="remarks" ></textarea>
                                                         </div>
                                                     </div>
                                                 </div>

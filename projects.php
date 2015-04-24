@@ -58,7 +58,7 @@ $get_emp_projects_history = $objPortal->get_emp_projects("history");
                                                             <label>Company Name</label>
                                                         </div>
                                                         <div class="col-sm-7">
-                                                            <input class="form-control" type="text" id="company_name" size="30">
+                                                            <input class="form-control" type="text" id="company_name" placeholder="MSys">
                                                         </div>
                                                     </div>
                                                     <div class="form-group row">
@@ -85,7 +85,7 @@ $get_emp_projects_history = $objPortal->get_emp_projects("history");
                                                         <div class="col-sm-12">
                                                             <label>Remarks</label>
                                                         
-                                                            <textarea class="form-control" rows="3" id="remarks" cols="30" ></textarea>
+                                                            <textarea class="form-control" rows="3" id="remarks" ></textarea>
                                                         </div>
                                                     </div>
                                                 </div>

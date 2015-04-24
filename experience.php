@@ -46,7 +46,39 @@ $get_emp_experience = $objPortal->get_emp_experience();
                                                             <label>Company Name</label>
                                                         </div>
                                                         <div class="col-sm-7"> 
-                                                            <input class="form-control" type="text" id="company_name" size="30">
+                                                            <input class="form-control" type="text" id="company_name" placeholder="MSys">
+                                                        </div>
+                                                    </div>                                                    
+                                                    <div class="form-group row">
+                                                        <div class="col-sm-4">
+                                                            <label>Designation</label>
+                                                        </div>
+                                                        <div class="col-sm-7">
+                                                            <input class="form-control" type="text" id="designation" placeholder="Developer">
+                                                       </div> 
+                                                    </div>
+                                                    <div class="form-group row">
+                                                        <div class="col-sm-4">
+                                                            <label>Role</label>
+                                                        </div>
+                                                        <div class="col-sm-7">
+                                                            <input class="form-control" type="text" id="role" placeholder="Development">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                        <div class="col-sm-4">
+                                                            <label>Team Size</label>
+                                                        </div>
+                                                        <div class="col-sm-7">
+                                                            <input class="form-control" type="text" id="team_size" placeholder="2">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                        <div class="col-sm-4">
+                                                            <label>CTC</label>
+                                                        </div>
+                                                        <div class="col-sm-7">
+                                                            <input class="form-control" type="text" id="ctc" placeholder="100000">
                                                         </div>
                                                     </div>
                                                     <div class="form-group row"> 
@@ -61,49 +93,24 @@ $get_emp_experience = $objPortal->get_emp_experience();
                                                         </div>
                                                     </div>
                                                     <div class="form-group row">
-                                                         <div class="col-sm-4">           
-                                                            <input class="form-control" type="text" id="total_experience" size="30">
-                                                        </div>
                                                         <div class="col-sm-4">           
-                                                            <input class="form-control date_picker" type="text" id="date_join" size="30">
+                                                            <input class="form-control" type="text" id="total_experience" placeholder="1 Year">
                                                         </div>
-                                                        <div class="col-sm-4">           
-                                                            <input class="form-control date_picker" type="text" id="date_leaving" size="30">
+                                                    
+                                                        <div class="col-sm-4"> 
+                                                            <div class="input-group date date_picker">          
+                                                                <input class="form-control" name="date_join" id="date_join" placeholder="Joining Date">
+                                                                <span  class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                                                            </div>
                                                         </div>
-                                                    </div>
-                                                    <div class="form-group row">
-                                                        <div class="col-sm-4">
-                                                            <label>Designation</label>
-                                                        </div>
-                                                        <div class="col-sm-7">
-                                                            <input class="form-control" type="text" id="designation" size="30">
-                                                       </div> 
-                                                    </div>
-                                                    <div class="form-group row">
-                                                        <div class="col-sm-4">
-                                                            <label>Role</label>
-                                                        </div>
-                                                        <div class="col-sm-7">
-                                                            <input class="form-control" type="text" id="role" size="30">
+                                                        <div class="col-sm-4"> 
+                                                            <div class="input-group date date_picker">          
+                                                                <input class="form-control" name="date_leaving" id="date_leaving" placeholder="Joining Date">
+                                                                <span  class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                    <div class="form-group row">
-                                                        <div class="col-sm-4">
-                                                            <label>Team Size</label>
-                                                        </div>
-                                                        <div class="col-sm-7">
-                                                            <input class="form-control" type="text" id="team_size" size="30">
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group row">
-                                                        <div class="col-sm-4">
-                                                            <label>CTC</label>
-                                                        </div>
-                                                        <div class="col-sm-7">
-                                                            <input class="form-control" type="text" id="ctc" size="30">
-                                                        </div>
-                                                    </div>
-
+                                                    
                                                     <div class="form-group row">
                                                         <div class="col-sm-12">
                                                             <label>Remarks</label>

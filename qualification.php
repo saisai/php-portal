@@ -56,7 +56,7 @@ $get_all_qualifications = $objPortal->get_all_qualifications();
                                                             <label>Board Name</label>
                                                         </div>
                                                         <div class="col-sm-7">           
-                                                            <input class="form-control" type="text" id="board_name" size="30" placeholder="University Name">
+                                                            <input class="form-control" type="text" id="board_name" placeholder="University Name">
                                                         </div>
                                                     </div>
                                                     <div class="form-group row">
@@ -64,7 +64,24 @@ $get_all_qualifications = $objPortal->get_all_qualifications();
                                                             <label>Course Name</label>
                                                         </div>
                                                         <div class="col-sm-7">           
-                                                            <input class="form-control" type="text" id="course_name" size="30">
+                                                            <input class="form-control" type="text" id="course_name" placeholder="Physics">
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <div class="form-group row">
+                                                        <div class="col-sm-4">
+                                                            <label>Passing Year</label>
+                                                        </div>
+                                                        <div class="col-sm-7">
+                                                            <input class="form-control" type="text" id="year_of_passing" placeholder="2008">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                        <div class="col-sm-4">
+                                                            <label>Grade</label>
+                                                        </div>
+                                                        <div class="col-sm-7">
+                                                            <input class="form-control" type="text" id="grade" placeholder="A+" >
                                                         </div>
                                                     </div>
                                                     <div class="form-group row">
@@ -80,29 +97,13 @@ $get_all_qualifications = $objPortal->get_all_qualifications();
                                                     </div>
                                                     <div class="form-group row">
                                                         <div class="col-sm-4">           
-                                                            <input class="form-control" type="text" id="total_mark" size="30">
+                                                            <input class="form-control" type="text" id="total_mark" placeholder="1200">
                                                         </div>
                                                         <div class="col-sm-4">
-                                                            <input class="form-control" type="text" id="obtained_mark" size="30">
+                                                            <input class="form-control" type="text" id="obtained_mark" placeholder="Your Mark">
                                                        </div> 
                                                         <div class="col-sm-4">
-                                                            <input class="form-control" type="text" id="percentage" size="30" disabled>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group row">
-                                                        <div class="col-sm-4">
-                                                            <label>Passing Year</label>
-                                                        </div>
-                                                        <div class="col-sm-7">
-                                                            <input class="form-control" type="text" id="year_of_passing" size="30">
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group row">
-                                                        <div class="col-sm-4">
-                                                            <label>Grade</label>
-                                                        </div>
-                                                        <div class="col-sm-7">
-                                                            <input class="form-control" type="text" id="grade" size="30">
+                                                            <input class="form-control" type="text" id="percentage"  disabled>
                                                         </div>
                                                     </div>
 
@@ -110,7 +111,7 @@ $get_all_qualifications = $objPortal->get_all_qualifications();
                                                         <div class="col-sm-12">
                                                             <label>Remarks</label>
                                                         
-                                                            <textarea class="form-control" rows="3" id="remarks" cols="30" ></textarea>
+                                                            <textarea class="form-control" rows="3" id="remarks"  ></textarea>
                                                         </div>
                                                     </div>
                                                 </div>
