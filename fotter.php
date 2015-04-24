@@ -26,7 +26,7 @@
     <script src="bower_components/datepicker/js/jquery.min.js"></script>
     <script src="bower_components/datepicker/js/bootstrap-datepicker.js"></script>
 
-    <script src="bower_components/bootstrap-validator/js/validator.min.js"></script>
+    <script src="bower_components/jquery_validator/js/jquery.validate.js"></script>
     <script src="action.js"></script>
     
 

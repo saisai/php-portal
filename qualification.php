@@ -40,81 +40,83 @@ $get_all_qualifications = $objPortal->get_all_qualifications();
                                                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                                                     <h4 class="modal-title" id="myModalLabel">Add New Qualifications</h4>
                                                 </div>
-                                                <div class="modal-body">
-                                                    <div class="form-group row">
-                                                        <div class="col-sm-4"> 
-                                                            <label>Course Type</label>
+                                                <form class="form-horizontal" role="form" name="qualification_form" id="qualification_form" >
+                                                    <div class="modal-body">
+                                                        <div class="form-group row">
+                                                            <div class="col-sm-4"> 
+                                                                <label>Course Type</label>
+                                                            </div>
+                                                            <div class="col-sm-7"> 
+                                                                <select class="form-control" id="course_type" data-rule-required="true" data-msg-required="Please enter course type">
+                                                                    <?php echo $get_all_qualifications ?>
+                                                                </select>
+                                                            </div>
                                                         </div>
-                                                        <div class="col-sm-7"> 
-                                                            <select class="form-control" id="course_type">
-                                                                <?php echo $get_all_qualifications ?>
-                                                            </select>
+                                                        <div class="form-group row"> 
+                                                            <div class="col-sm-4">                                           
+                                                                <label>Board Name</label>
+                                                            </div>
+                                                            <div class="col-sm-7">           
+                                                                <input class="form-control" type="text" id="board_name" placeholder="University Name" data-rule-required="true" data-msg-required="Please enter board name">
+                                                            </div>
                                                         </div>
-                                                    </div>
-                                                    <div class="form-group row"> 
-                                                        <div class="col-sm-4">                                           
-                                                            <label>Board Name</label>
+                                                        <div class="form-group row">
+                                                            <div class="col-sm-4">                                           
+                                                                <label>Course Name</label>
+                                                            </div>
+                                                            <div class="col-sm-7">           
+                                                                <input class="form-control" type="text" id="course_name" placeholder="Physics" data-rule-required="true" data-msg-required="Please enter course name">
+                                                            </div>
                                                         </div>
-                                                        <div class="col-sm-7">           
-                                                            <input class="form-control" type="text" id="board_name" placeholder="University Name">
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group row">
-                                                        <div class="col-sm-4">                                           
-                                                            <label>Course Name</label>
-                                                        </div>
-                                                        <div class="col-sm-7">           
-                                                            <input class="form-control" type="text" id="course_name" placeholder="Physics">
-                                                        </div>
-                                                    </div>
-                                                    
-                                                    <div class="form-group row">
-                                                        <div class="col-sm-4">
-                                                            <label>Passing Year</label>
-                                                        </div>
-                                                        <div class="col-sm-7">
-                                                            <input class="form-control" type="text" id="year_of_passing" placeholder="2008">
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group row">
-                                                        <div class="col-sm-4">
-                                                            <label>Grade</label>
-                                                        </div>
-                                                        <div class="col-sm-7">
-                                                            <input class="form-control" type="text" id="grade" placeholder="A+" >
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group row">
-                                                        <div class="col-sm-4">                                           
-                                                            <label>Total Mark</label>
-                                                        </div>
-                                                        <div class="col-sm-4">
-                                                            <label>Earned Mark</label>
-                                                        </div>
-                                                        <div class="col-sm-4">
-                                                            <label>Percentage</label>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group row">
-                                                        <div class="col-sm-4">           
-                                                            <input class="form-control" type="text" id="total_mark" placeholder="1200">
-                                                        </div>
-                                                        <div class="col-sm-4">
-                                                            <input class="form-control" type="text" id="obtained_mark" placeholder="Your Mark">
-                                                       </div> 
-                                                        <div class="col-sm-4">
-                                                            <input class="form-control" type="text" id="percentage"  disabled>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="form-group row">
-                                                        <div class="col-sm-12">
-                                                            <label>Remarks</label>
                                                         
-                                                            <textarea class="form-control" rows="3" id="remarks"  ></textarea>
+                                                        <div class="form-group row">
+                                                            <div class="col-sm-4">
+                                                                <label>Passing Year</label>
+                                                            </div>
+                                                            <div class="col-sm-7">
+                                                                <input class="form-control" type="text" id="year_of_passing" placeholder="2008" data-rule-required="true" data-msg-required="Please enter year of passing">
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group row">
+                                                            <div class="col-sm-4">
+                                                                <label>Grade</label>
+                                                            </div>
+                                                            <div class="col-sm-7">
+                                                                <input class="form-control" type="text" id="grade" placeholder="A+" data-rule-required="true" data-msg-required="Please enter grade" >
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group row">
+                                                            <div class="col-sm-4">                                           
+                                                                <label>Total Mark</label>
+                                                            </div>
+                                                            <div class="col-sm-4">
+                                                                <label>Earned Mark</label>
+                                                            </div>
+                                                            <div class="col-sm-4">
+                                                                <label>Percentage</label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group row">
+                                                            <div class="col-sm-4">           
+                                                                <input class="form-control" type="text" id="total_mark" placeholder="1200" data-rule-required="true" data-msg-required="Please enter total mark">
+                                                            </div>
+                                                            <div class="col-sm-4">
+                                                                <input class="form-control" type="text" id="obtained_mark" placeholder="Your Mark" data-rule-required="true" data-msg-required="Please enter earned mark">
+                                                           </div> 
+                                                            <div class="col-sm-4">
+                                                                <input class="form-control" type="text" id="percentage"  disabled>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="form-group row">
+                                                            <div class="col-sm-12">
+                                                                <label>Remarks</label>
+                                                            
+                                                                <textarea class="form-control" rows="3" id="remarks"  ></textarea>
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                </div>
+                                                </form>    
                                                 <div class="modal-footer">
                                                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                                                     <button type="button" class="btn btn-primary" id="save_emp_qualification">Save changes</button>

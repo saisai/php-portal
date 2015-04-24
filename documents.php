@@ -39,56 +39,58 @@ $get_all_documents = $objPortal->get_all_documents();
                                                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                                                     <h4 class="modal-title" id="myModalLabel">Upload New Document</h4>
                                                 </div>
-                                                <div class="modal-body">
-                                                    <div class="form-group row">
-                                                        <div class="col-sm-4"> 
-                                                             <label>Document Type</label>
+                                                <form class="form-horizontal" role="form" name="document_form" id="document_form" >
+                                                    <div class="modal-body">
+                                                        <div class="form-group row">
+                                                            <div class="col-sm-4"> 
+                                                                 <label>Document Type</label>
+                                                            </div>
+                                                            <div class="col-sm-7"> 
+                                                               <select class="form-control" id="document_type" data-rule-required="true" data-msg-required="Please select document type">
+                                                                <?php echo $get_all_documents ?>
+                                                            </select>
+                                                            </div>
                                                         </div>
-                                                        <div class="col-sm-7"> 
-                                                           <select class="form-control" id="document_type">
-                                                            <?php echo $get_all_documents ?>
-                                                        </select>
+                                                        <div class="form-group row"> 
+                                                            <div class="col-sm-4">                                           
+                                                                 <label>Document File</label>
+                                                            </div>
+                                                            <div class="col-sm-7">           
+                                                                <input type="file" id="doc_file" data-rule-required="true" data-msg-required="Please open file">
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group row">
+                                                            <div class="col-sm-4">                                           
+                                                                <label>Course</label>
+                                                            </div>
+                                                            <div class="col-sm-7">           
+                                                                <select class="form-control" id="course_type" data-rule-required="true" data-msg-required="Please select course type">
+                                                                <option value="">Select Any Value</option>
+                                                                <option value="REGULAR">Regular</option>
+                                                                <option value="DISTANCE">Distance</option>
+                                                            </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group row">
+                                                            <div class="col-sm-4">                                           
+                                                                <label>Given</label>
+                                                            </div>
+                                                            <div class="col-sm-7">           
+                                                                <select class="form-control" id="in_hand" data-rule-required="true" data-msg-required="Please select any one option">
+                                                                <option value="">Select Any Value</option>
+                                                                <option value="org">Original</option>
+                                                                <option value="copy">Copy</option>
+                                                            </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group row">
+                                                            <div class="col-sm-12">
+                                                                <label>Remarks</label> 
+                                                                <textarea class="form-control" rows="3" id="doc_remarks"></textarea>
+                                                           </div> 
                                                         </div>
                                                     </div>
-                                                    <div class="form-group row"> 
-                                                        <div class="col-sm-4">                                           
-                                                             <label>Document File</label>
-                                                        </div>
-                                                        <div class="col-sm-7">           
-                                                            <input type="file" id="doc_file">
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group row">
-                                                        <div class="col-sm-4">                                           
-                                                            <label>Course</label>
-                                                        </div>
-                                                        <div class="col-sm-7">           
-                                                            <select class="form-control" id="course_type">
-                                                            <option value="">Select Any Value</option>
-                                                            <option value="REGULAR">Regular</option>
-                                                            <option value="DISTANCE">Distance</option>
-                                                        </select>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group row">
-                                                        <div class="col-sm-4">                                           
-                                                            <label>Given</label>
-                                                        </div>
-                                                        <div class="col-sm-7">           
-                                                            <select class="form-control" id="in_hand">
-                                                            <option value="">Select Any Value</option>
-                                                            <option value="org">Original</option>
-                                                            <option value="copy">Copy</option>
-                                                        </select>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group row">
-                                                        <div class="col-sm-12">
-                                                            <label>Remarks</label> 
-                                                            <textarea class="form-control" rows="3" id="doc_remarks"></textarea>
-                                                       </div> 
-                                                    </div>
-                                                </div>
+                                                </form>    
                                                 <div class="modal-footer">
                                                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                                                     <button type="button" class="btn btn-primary" id="save_emp_documents">Save changes</button>

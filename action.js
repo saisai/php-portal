@@ -196,6 +196,9 @@ $("#leave_reject").click(function(){
 
 /*Start Emp Documents*/
 $("#save_emp_documents").click(function (){
+	if(!$("#document_form").valid()){
+		return true;
+	}
 
 	var getJsonData =  {
 			className 	: "Portal",
@@ -223,6 +226,11 @@ $("#save_emp_documents").click(function (){
 /*Start Emp qualification*/
 
 $("#save_emp_qualification").click(function (){
+
+	if(!$("#qualification_form").valid()){
+		return true;
+	}
+
 	var getJsonData =  {
 			className 	 	: "Portal",
 			methodName 	 	: "save_emp_qualification",
@@ -252,6 +260,10 @@ $("#save_emp_qualification").click(function (){
 
 /*Start Emp Experience*/
 $("#save_emp_experience").click(function (){
+	if(!$("#experience_form").valid()){
+		return true;
+	}
+
 	var getJsonData =  {
 			className 	 		: "Portal",
 			methodName 	 		: "save_emp_experience",
@@ -282,6 +294,10 @@ $("#save_emp_experience").click(function (){
 
 /*Start Emp Visa*/
 $("#save_emp_visa").click(function (){
+
+	if(!$("#visa_form").valid()){
+		return true;
+	}
 	var getJsonData =  {
 			className 	 		: "Portal",
 			methodName 	 		: "save_emp_visa",
@@ -307,6 +323,11 @@ $("#save_emp_visa").click(function (){
 
 /*Start Emp Projects*/
 $("#save_emp_projects").click(function (){
+	
+	if(!$("#project_form").valid()){
+		return true;
+	}
+
 	var getJsonData =  {
 			className 	 		: "Portal",
 			methodName 	 		: "save_emp_projects",

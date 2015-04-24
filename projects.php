@@ -42,53 +42,55 @@ $get_emp_projects_history = $objPortal->get_emp_projects("history");
                                                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                                                     <h4 class="modal-title" id="myModalLabel">Add Projects</h4>
                                                 </div>
-                                                <div class="modal-body">
-                                                    <div class="form-group row">
-                                                        <div class="col-sm-4"> 
-                                                            <label>Project</label>
+                                                <form class="form-horizontal" role="form" name="project_form" id="project_form" >
+                                                    <div class="modal-body">
+                                                        <div class="form-group row">
+                                                            <div class="col-sm-4"> 
+                                                                <label>Project</label>
+                                                            </div>
+                                                            <div class="col-sm-7"> 
+                                                                <select class="form-control" id="project_code" data-rule-required="true" data-msg-required="Please select project ">
+                                                                    <?php echo $get_all_projects ?>
+                                                                </select>
+                                                            </div>
                                                         </div>
-                                                        <div class="col-sm-7"> 
-                                                            <select class="form-control" id="project_code">
-                                                                <?php echo $get_all_projects ?>
-                                                            </select>
+                                                        <div class="form-group row"> 
+                                                            <div class="col-sm-4">                                           
+                                                                <label>Company Name</label>
+                                                            </div>
+                                                            <div class="col-sm-7">
+                                                                <input class="form-control" type="text" id="company_name" data-rule-required="true" data-msg-required="Please enter company name" placeholder="MSys">
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group row">
+                                                            <div class="col-sm-4">                                           
+                                                                <label>Reporting To</label>
+                                                            </div>
+                                                            <div class="col-sm-7"> 
+                                                                <select class="form-control" id="reporting_to" data-rule-required="true" data-msg-required="Please select name">
+                                                                    <?php echo $get_all_employee ?>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <!--
+                                                        <div class="form-group row">
+                                                            <div class="col-sm-4">                                           
+                                                                <label>Is Completed</label>
+                                                            </div>
+                                                            <div class="col-sm-7">           
+                                                                <input class="form-control" type="checkbox" id="is_completed" size="30">
+                                                            </div>
+                                                        </div> 
+                                                         -->                                                  
+                                                        <div class="form-group row">
+                                                            <div class="col-sm-12">
+                                                                <label>Remarks</label>
+                                                            
+                                                                <textarea class="form-control" rows="3" id="remarks" ></textarea>
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                    <div class="form-group row"> 
-                                                        <div class="col-sm-4">                                           
-                                                            <label>Company Name</label>
-                                                        </div>
-                                                        <div class="col-sm-7">
-                                                            <input class="form-control" type="text" id="company_name" placeholder="MSys">
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group row">
-                                                        <div class="col-sm-4">                                           
-                                                            <label>Reporting To</label>
-                                                        </div>
-                                                        <div class="col-sm-7"> 
-                                                            <select class="form-control" id="reporting_to">
-                                                                <?php echo $get_all_employee ?>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                    <!--
-                                                    <div class="form-group row">
-                                                        <div class="col-sm-4">                                           
-                                                            <label>Is Completed</label>
-                                                        </div>
-                                                        <div class="col-sm-7">           
-                                                            <input class="form-control" type="checkbox" id="is_completed" size="30">
-                                                        </div>
-                                                    </div> 
-                                                     -->                                                  
-                                                    <div class="form-group row">
-                                                        <div class="col-sm-12">
-                                                            <label>Remarks</label>
-                                                        
-                                                            <textarea class="form-control" rows="3" id="remarks" ></textarea>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                                </form>    
                                                 <div class="modal-footer">
                                                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                                                     <button type="button" class="btn btn-primary" id="save_emp_projects">Save changes</button>
