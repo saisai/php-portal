@@ -112,7 +112,7 @@ $get_all_documents = $objPortal->get_all_documents();
             </div>
         </div>
 <?php
-include_once("fotter.php");
+include_once("footer.php");
 
 $html ='<script type="text/javascript">
             $(document).ready(function () {

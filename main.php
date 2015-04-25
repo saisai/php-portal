@@ -214,6 +214,6 @@ $get_widget_data = $objPortal->get_widget_data();
             <!-- /.row -->
         </div>
 <?php
-include_once("fotter.php");
+include_once("footer.php");
 }
 ?>

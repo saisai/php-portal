@@ -39,7 +39,7 @@ $get_my_team_members = $objPortal->get_my_team_members();
             </div>
         </div>
 <?php
-include_once("fotter.php");
+include_once("footer.php");
 
 $html ='<script type="text/javascript">
             $(document).ready(function () {

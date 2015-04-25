@@ -120,7 +120,7 @@ $get_emp_projects_history = $objPortal->get_emp_projects("history");
             </div>
         </div>
 <?php
-include_once("fotter.php");
+include_once("footer.php");
 
 $html ='<script type="text/javascript">
             $(document).ready(function () {

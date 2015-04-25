@@ -42,6 +42,6 @@ $objempDetails = $objDetails->get_employee_details();
             <!-- /.container-fluid -->
 
 <?php
-include_once("fotter.php");
+include_once("footer.php");
 }
 ?>

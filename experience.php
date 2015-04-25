@@ -142,7 +142,7 @@ $get_emp_experience = $objPortal->get_emp_experience();
             </div>
         </div>
 <?php
-include_once("fotter.php");
+include_once("footer.php");
 
 $html ='<script type="text/javascript">
             $(document).ready(function () {

@@ -73,7 +73,7 @@ $today = $_SESSION['workDate'];
             <!-- /.container-fluid -->
 
 <?php
-include_once("fotter.php");
+include_once("footer.php");
 $html ='<script type="text/javascript">
 
 $(document).ready(function () {                                  

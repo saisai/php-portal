@@ -138,7 +138,7 @@ $get_all_qualifications = $objPortal->get_all_qualifications();
             </div>
         </div>
 <?php
-include_once("fotter.php");
+include_once("footer.php");
 
 $html ='<script type="text/javascript">
         $(document).ready(function () {

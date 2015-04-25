@@ -39,7 +39,7 @@ $get_circulars_details = $objPortal->get_circulars_details();
             </div>
         </div>
 <?php
-include_once("fotter.php");
+include_once("footer.php");
 
 $html ='<script type="text/javascript">
             $(document).ready(function () {
