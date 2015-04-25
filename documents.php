@@ -32,6 +32,8 @@ $get_all_documents = $objPortal->get_all_documents();
                                     <div class="col-lg-11">
                                         <button class="btn btn-primary pull-right" data-toggle="modal" data-target="#emp_doc_model"><i class="fa fa-upload fa-fw"></i> Upload File</button>
                                     </div>
+                                </div>
+                                <div class="row">
                                     <div class="modal fade" id="emp_doc_model" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                                         <div class="modal-dialog">
                                             <div class="modal-content">

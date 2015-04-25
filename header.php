@@ -60,6 +60,9 @@
         .fa-plane {
             font-size: 16px;
         }
+        .circle_div{
+            border-radius: 10px;
+        }
 
     </style>
 </head>
@@ -150,7 +153,7 @@
                             <a href="#">
                                 <div>
                                     <p>
-                                        <strong>Task 1</strong>
+                                        <strong>Profile</strong>
                                         <span class="pull-right text-muted">40% Complete</span>
                                     </p>
                                     <div class="progress progress-striped active">
@@ -166,12 +169,12 @@
                             <a href="#">
                                 <div>
                                     <p>
-                                        <strong>Task 2</strong>
-                                        <span class="pull-right text-muted">20% Complete</span>
+                                        <strong>Documents</strong>
+                                        <span class="pull-right text-muted">20% Uploaded</span>
                                     </p>
                                     <div class="progress progress-striped active">
                                         <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
-                                            <span class="sr-only">20% Complete</span>
+                                            <span class="sr-only">20% Uploaded</span>
                                         </div>
                                     </div>
                                 </div>
@@ -182,12 +185,12 @@
                             <a href="#">
                                 <div>
                                     <p>
-                                        <strong>Task 3</strong>
-                                        <span class="pull-right text-muted">60% Complete</span>
+                                        <strong>Qualification</strong>
+                                        <span class="pull-right text-muted">60% Updated</span>
                                     </p>
                                     <div class="progress progress-striped active">
                                         <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-                                            <span class="sr-only">60% Complete (warning)</span>
+                                            <span class="sr-only">60% Updated (warning)</span>
                                         </div>
                                     </div>
                                 </div>
@@ -198,12 +201,12 @@
                             <a href="#">
                                 <div>
                                     <p>
-                                        <strong>Task 4</strong>
-                                        <span class="pull-right text-muted">80% Complete</span>
+                                        <strong>Leaves</strong>
+                                        <span class="pull-right text-muted">60% Taken</span>
                                     </p>
                                     <div class="progress progress-striped active">
-                                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
-                                            <span class="sr-only">80% Complete (danger)</span>
+                                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                                            <span class="sr-only">60% Taken (danger)</span>
                                         </div>
                                     </div>
                                 </div>
@@ -222,6 +225,7 @@
                 <!-- /.dropdown -->
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <span class="label label-danger circle_div">5</span>
                         <i class="fa fa-bell fa-fw"></i>  <i class="fa fa-caret-down"></i>
                     </a>
                     <ul class="dropdown-menu dropdown-alerts">
@@ -285,7 +289,7 @@
                         <i class="fa fa-user fa-fw"></i>  <i class="fa fa-caret-down"></i>
                     </a>
                     <ul class="dropdown-menu dropdown-user">
-                        <li><a href="#"><i class="fa fa-user fa-fw"></i> User Profile</a>
+                        <li><a href="profile.php"><i class="fa fa-user fa-fw"></i> User Profile</a>
                         </li>
                         <li><a href="settings.php"><i class="fa fa-gear fa-fw"></i> Settings</a>
                         </li>

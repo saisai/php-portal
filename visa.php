@@ -33,6 +33,8 @@ $get_emp_visa = $objPortal->get_emp_visa();
                                     <div class="col-lg-11">
                                         <button class="btn btn-primary pull-right" data-toggle="modal" data-target="#emp_visa_model"><i class="fa fa-plus fa-fw"></i> Add New</button>
                                     </div>
+                                </div>
+                                <div class="row">
                                     <div class="modal fade" id="emp_visa_model" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                                         
                                         <div class="modal-dialog">
