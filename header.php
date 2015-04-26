@@ -67,7 +67,7 @@
     </style>
 </head>
 
-<body>
+<body  ng-app="hrmsApp">
     <div class="row notification_box">
         <div class="col-lg-12">
             <div class="panel-body ">
@@ -318,34 +318,34 @@
                             <!-- /input-group -->
                         </li>
                         <li>
-                            <a href="main.php"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                            <a href="#/"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
                         </li>
                         <li>
                             <a href="#"><i class="fa fa-home fa-fw"></i> Home<span class="fa arrow"></span></a>
                              <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="profile.php"><i class="fa fa-user fa-fw"></i> Profile</a>
+                                    <a href="#profile"><i class="fa fa-user fa-fw"></i> Profile</a>
                                 </li>
                                 <li>
-                                    <a href="documents.php"><i class="fa fa-files-o fa-fw"></i> Documents</a>
+                                    <a href="#documents"><i class="fa fa-files-o fa-fw"></i> Documents</a>
                                 </li>
                                 <li>
-                                    <a href="qualification.php"><i class="fa fa-graduation-cap fa-fw"></i> Qualification</a>
+                                    <a href="#qualification"><i class="fa fa-graduation-cap fa-fw"></i> Qualification</a>
                                 </li>
                                 <li>
-                                    <a href="experience.php"><i class="fa fa-briefcase fa-fw"></i> Experience</a>
+                                    <a href="#experience"><i class="fa fa-briefcase fa-fw"></i> Experience</a>
                                 </li>
                                 <li>
-                                    <a href="visa.php"><i class="fa fa-plane fa-fw"></i> Visa</a>
+                                    <a href="#visa"><i class="fa fa-plane fa-fw"></i> Visa</a>
                                 </li>
                                 <li>
-                                    <a href="projects.php"><i class="fa fa-desktop fa-fw"></i> Projects</a>
+                                    <a href="#projects"><i class="fa fa-desktop fa-fw"></i> Projects</a>
                                 </li>
                                 <li>
-                                    <a href="team_members.php"><i class="fa fa-group fa-fw"></i> Team Members</a>
+                                    <a href="#team_members"><i class="fa fa-group fa-fw"></i> Team Members</a>
                                 </li>
                                 <li>
-                                    <a href="circulars.php"><i class="fa fa-bullhorn fa-fw"></i> Circulars</a>
+                                    <a href="#circulars"><i class="fa fa-bullhorn fa-fw"></i> Circulars</a>
                                 </li>
                             </ul>
 
@@ -354,13 +354,13 @@
                             <a href="#"><i class="fa fa-calendar fa-fw"></i> Leave Management<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="apply_leave.php"><i class="fa fa-send fa-fw"></i> Apply Leave</a>
+                                    <a href="#apply_leave"><i class="fa fa-send fa-fw"></i> Apply Leave</a>
                                 </li>
                                 <li>
-                                    <a href="leaves.php"><i class="fa fa-bar-chart-o fa-fw"></i> Leave History</a>
+                                    <a href="#leaves"><i class="fa fa-bar-chart-o fa-fw"></i> Leave History</a>
                                 </li>
                                 <li>
-                                    <a href="team_leaves.php"><i class="fa fa-group fa-fw"></i> Team Leaves</a>
+                                    <a href="#team_leaves"><i class="fa fa-group fa-fw"></i> Team Leaves</a>
                                 </li>
                             </ul>
                         </li>
