@@ -1,10 +1,21 @@
 <?php
 list($url, $filter) = parseUri($_GET);
 list($_, $class, $id) = explode('/', $url);
+$class = ucfirst(strtolower($class));
+if (!file_exists($class . '.cls.php')) {
+    http_response_code(501);
+    echo "{$class} class not implemented";
+    exit();
+}
 spl_autoload_register(function ($class) {
-     include_once $class . '.cls.php';
+    include_once $class . '.cls.php';
 });
-$cls = new $class;
+try {
+    $cls = new $class;
+} catch (Exception $e) {
+    http_response_code(501);
+    echo 'Error Message: ',  $e->getMessage(), "\n";
+}
 header('Content-Type: application/json');
 switch($_SERVER['REQUEST_METHOD']) {
     case 'GET' && $id:

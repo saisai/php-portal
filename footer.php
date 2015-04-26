@@ -6,7 +6,8 @@
     <!-- Angularjs -->
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular-route.min.js"></script>
-
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular-resource.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ng-table/0.3.3/ng-table.min.js"></script>
     <!-- Bootstrap Core JavaScript -->
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 
@@ -27,5 +28,6 @@
     <!-- include angularjs specific local script -->
     <script src="js/app.js"></script>
     <script src="js/controllers/profilectl.js"></script>
+    <script src="js/controllers/documentctl.js"></script>
     <!-- end of angularjs scripts -->    
 </html>

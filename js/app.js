@@ -1,11 +1,11 @@
 /*
 Main Angular app for hrms restful API
 */
-var hrmsApp = angular.module('hrmsApp', ['ngRoute']);
+var hrmsApp = angular.module('hrmsApp', ['ngRoute','ngTable', 'ngResource']);
   
 hrmsApp.config(
     function($routeProvider) {
-        $routeProvider.
+    $routeProvider.
         when('/',
             {controller: 'profileCtl',templateUrl: 'templates/dashboard.html'}
         ).
