@@ -85,9 +85,31 @@ class DocumentsModel extends Model {
 class QualificationModel extends Model {
     var $model = 'emp_qualification';
     var $fields = array(
-        'slno','emp_id','line_no_', 'upload_date', 'remarks', 'hr_remarks',
+        'slno','emp_id','line_no_', 'upload_date', 'remarks', 'hr_remarks','ts',
         'board','type','course_name','total_mark','obtained_mark',
-        'percentage','year_of_passing','grade','ts'
+        'percentage','year_of_passing','grade'
+    );
+    public function __construct() {
+        parent::__construct($this->model,$this->fields, 'emp_id');
+    }
+}
+
+class VisaModel extends Model {
+    var $model = 'emp_visa';
+    var $fields = array(
+        'slno','emp_id','line_no_', 'upload_date', 'remarks', 'hr_remarks','ts',
+        'type','country','start_date','end_date'
+    );
+    public function __construct() {
+        parent::__construct($this->model,$this->fields, 'emp_id');
+    }
+}
+
+class ProjectModel extends Model {
+    var $model = 'emp_projects';
+    var $fields = array(
+        'slno','emp_id','line_no_', 'upload_date', 'remarks', 'hr_remarks','ts',
+        'code','name','reporting_to','is_completed'
     );
     public function __construct() {
         parent::__construct($this->model,$this->fields, 'emp_id');

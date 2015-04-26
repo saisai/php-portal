@@ -330,7 +330,7 @@
                                     <a href="#documents"><i class="fa fa-files-o fa-fw"></i> Documents</a>
                                 </li>
                                 <li>
-                                    <a href="#qualification"><i class="fa fa-graduation-cap fa-fw"></i> Qualification</a>
+                                    <a href="#qualifications"><i class="fa fa-graduation-cap fa-fw"></i> Qualifications</a>
                                 </li>
                                 <li>
                                     <a href="#experience"><i class="fa fa-briefcase fa-fw"></i> Experience</a>

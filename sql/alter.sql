@@ -1,8 +1,9 @@
 UPDATE employee SET user_id = SUBSTRING_INDEX(email_id, '@', 1) AND password = password('msys@123')
 
 ALTER TABLE `employee` ADD COLUMN `location` varchar(30)  NOT NULL AFTER `msys_email`;
+ALTER TABLE `employee` ADD COLUMN `emp_id` varchar(30)  NOT NULL AFTER `center_code`;
 
-concat(SUBSTRING_INDEX(id, '/', 1),'_',SUBSTRING_INDEX(id, '/', -1))
+UPDATE employee SET emp_id = concat(SUBSTRING_INDEX(id, '/', 1),'_',SUBSTRING_INDEX(id, '/', -1))
 
 ALTER TABLE `employee` 
 CHANGE COLUMN `address` `temp_address` VARCHAR(150) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
