@@ -8,4 +8,11 @@ hrmsApp.controller('profileCtl', function ($scope, $http) {
         // called asynchronously if an error occurs
         // or server returns response with an error status.
     });
+
+    $scope.saveprofile = function() {
+        $http.put('/portal/api/employee/M421-2014', {'test':'hello'}).
+        success(function(data, status, headers, config){
+            console.log(data);
+        })
+    };
 });
