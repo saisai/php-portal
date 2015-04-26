@@ -1,5 +1,5 @@
-hrmsApp.controller('documentCtl', function ($scope, $timeout, $resource, ngTableParams) {
-    var Api = $resource('/portal/api/documents/M421_2014');
+hrmsApp.controller('visactl', function ($scope, $timeout, $resource, ngTableParams) {
+    var Api = $resource('/portal/api/visa/M421_2014');
     
     $scope.tableParams = new ngTableParams({
         page: 1,            // show first page

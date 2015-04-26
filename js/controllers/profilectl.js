@@ -1,6 +1,6 @@
 hrmsApp.controller('profileCtl', function ($scope, $http) {
     $scope.profile_data = {};
-    $http.get('/portal/api/employee/50').
+    $http.get('/portal/api/employee/M421_2014').
     success(function(data, status, headers, config) {
         $scope.profile_data = data;
     }).

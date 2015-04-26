@@ -94,19 +94,28 @@
                                     <table ng-table="tableParams" show-filter="true" class="table">
                                         <tbody>
                                             <tr ng-repeat="doc in $data">
-                                                <td data-title="'Name'" sortable="name">
-                                                {{doc.slno}}
-                                                </td>
-                                                <td data-title="'Code'" sortable="code">
-                                                {{doc.code}}
-                                                </td>
-                                                <td data-title="'Doc Type'" sortable="doc_type">
-                                                {{doc.doc_type}}
+                                                <td data-title="'Name of the Document'" sortable="doc_name">
+                                                {{doc.doc_name}}
                                                 </td>
                                                 <td data-title="'Course'" sortable="course">
                                                 {{doc.course}}
                                                 </td>
-                                                <td data-title="'Remarks'" sortable="remarks">
+                                                <td data-title="'File Name'" sortable="doc_file">
+                                                {{doc.doc_file}}
+                                                </td>
+                                                <td data-title="'Submitted'" sortable="in_hand">
+                                                {{doc.in_hand}}
+                                                </td>
+                                                <td data-title="'Verified'" sortable="verified">
+                                                {{doc.verified}}
+                                                </td>
+                                                <td data-title="'Returned'" sortable="returned">
+                                                {{doc.returned}}
+                                                </td>
+                                                   <td data-title="'Returned Date'" sortable="return_date">
+                                                {{doc.return_date}}
+                                                </td>
+                                                   <td data-title="'Remarks'" sortable="remarks">
                                                 {{doc.remarks}}
                                                 </td>
                                             </tr>
