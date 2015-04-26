@@ -1,4 +1,4 @@
-hrmsApp.controller('documentCtl', function ($scope, $timeout, $resource, ngTableParams) {
+hrmsApp.controller('documentCtl', function ($scope, $http, $timeout, $resource, ngTableParams) {
     var Api = $resource('/portal/api/documents/M421-2014');
     
     $scope.tableParams = new ngTableParams({
