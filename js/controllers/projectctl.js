@@ -1,4 +1,4 @@
-hrmsApp.controller('projectctl', function ($scope, $timeout, $resource, ngTableParams) {
+hrmsApp.controller('projectCtl', function ($scope, $timeout, $resource, ngTableParams) {
     var Api = $resource('/portal/api/projects/M421-2014');
     
     $scope.tableParams = new ngTableParams({

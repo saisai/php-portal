@@ -1,6 +1,5 @@
-hrmsApp.controller('visaCtl', function ($scope, $timeout, $resource, ngTableParams) {
-    var Api = $resource('/portal/api/visa/M421-2014');
-    
+hrmsApp.controller('experienceCtl', function ($scope, $timeout, $resource, ngTableParams) {
+    var Api = $resource('/portal/api/experience/M421-2014');
     $scope.tableParams = new ngTableParams({
         page: 1,            // show first page
         count: 10,          // count per page

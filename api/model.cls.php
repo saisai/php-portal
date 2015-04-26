@@ -115,3 +115,14 @@ class ProjectModel extends Model {
         parent::__construct($this->model,$this->fields, 'emp_id');
     }
 }
+
+class ExperienceModel extends Model {
+    var $model = 'emp_experience';
+    var $fields = array(
+        'slno','emp_id','line_no_', 'upload_date', 'remarks', 'hr_remarks','ts',
+        'company_name','total_exp','doj','dol','designation','role','team_size','ctc'
+    );
+    public function __construct() {
+        parent::__construct($this->model,$this->fields, 'emp_id');
+    }
+}

@@ -64,6 +64,9 @@
             border-radius: 10px;
         }
 
+        .icon_actions{
+            cursor: pointer;
+        }
     </style>
 </head>
 

@@ -1,4 +1,4 @@
-hrmsApp.controller('qualificationctl', function ($scope, $timeout, $resource, ngTableParams) {
+hrmsApp.controller('qualificationCtl', function ($scope, $timeout, $resource, ngTableParams) {
     var Api = $resource('/portal/api/qualifications/M421-2014');
     
     $scope.tableParams = new ngTableParams({

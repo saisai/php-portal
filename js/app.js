@@ -16,16 +16,16 @@ hrmsApp.config(
             {controller: 'documentCtl',templateUrl: 'templates/documents.html'}
         ).
         when('/qualifications',
-            {controller: 'qualificationctl',templateUrl: 'templates/qualification.html'}
+            {controller: 'qualificationCtl',templateUrl: 'templates/qualification.html'}
         ).
         when('/experience',
-            {controller: 'profileCtl',templateUrl: 'templates/experience.html'}
+            {controller: 'experienceCtl',templateUrl: 'templates/experience.html'}
         ).
         when('/visa',
-            {controller: 'profileCtl',templateUrl: 'templates/visa.html'}
+            {controller: 'visaCtl',templateUrl: 'templates/visa.html'}
         ).
         when('/projects',
-            {controller: 'profileCtl',templateUrl: 'templates/projects.html'}
+            {controller: 'projectCtl',templateUrl: 'templates/projects.html'}
         ).
         when('/team_members',
             {controller: 'profileCtl',templateUrl: 'templates/team_members.html'}

@@ -116,6 +116,51 @@
                                 <!-- /.modal-dialog -->
                             </div>
                             <div class="col-lg-12">
+                                <button ng-click="tableParams.reload()" class="btn btn-default">Reload</button>
+                                <button ng-click="tableParams.sorting({})" class="btn btn-default">Clear sorting</button>
+                                <div class="clearfix"></div>
+                                <div loading-container="tableParams.settings().$loading">
+                                    <table ng-table="tableParams" show-filter="true" class="table">
+                                        <tbody>
+                                            <tr ng-repeat="doc in $data">
+                                                <td data-title="'Company Name'" sortable="company_name">
+                                                {{doc.company_name}}
+                                                </td>
+                                                <td data-title="'Total Experience'" sortable="total_exp">
+                                                {{doc.total_exp}}
+                                                </td>
+                                                <td data-title="'Joining Date'" sortable="doj">
+                                                {{doc.doj}}
+                                                </td>
+                                                <td data-title="'Leaving Date'" sortable="dol">
+                                                {{doc.dol}}
+                                                </td>
+                                                <td data-title="'Designation'" sortable="designation">
+                                                {{doc.designation}}
+                                                </td>
+                                                <td data-title="'Role'" sortable="role">
+                                                {{doc.role}}
+                                                </td>
+                                                   <td data-title="'Team Size'" sortable="team_size">
+                                                {{doc.team_size}}
+                                                </td>
+                                                   <td data-title="'CTC'" sortable="ctc">
+                                                {{doc.ctc}}
+                                                </td>
+                                                </td>
+                                                   <td data-title="'Remarks'" sortable="remarks">
+                                                {{doc.remarks}}
+                                                </td>
+                                                <td data-title="'Actions'" sortable="remarks" align="center" >
+                                                    <div class="icon_actions">
+                                                        <i class="fa  fa-pencil  fa-fw" title="Edit"></i>
+                                                        <i class="fa  fa-trash-o  fa-fw" title="Delete"></i>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
                             </div>
                         </div>
                     </div>

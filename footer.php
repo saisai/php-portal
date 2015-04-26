@@ -30,5 +30,8 @@
     <script src="js/controllers/profilectl.js"></script>
     <script src="js/controllers/documentctl.js"></script>
     <script src="js/controllers/qualificationctl.js"></script>
+    <script src="js/controllers/experiencectl.js"></script>
+    <script src="js/controllers/visactl.js"></script>
+    <script src="js/controllers/projectctl.js"></script>
     <!-- end of angularjs scripts -->    
 </html>
