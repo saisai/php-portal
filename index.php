@@ -64,18 +64,18 @@ if(isset ($_POST['submit'])) {
 	                        <form role="form">
 	                            <fieldset>
 	                                <div class="form-group">
-	                                    <input class="form-control" placeholder="User Name" name="user_name" type="text" autofocus>
+	                                    <input class="form-control" placeholder="User Name" id="user_name" name="user_name" type="text" autofocus>
 	                                </div>
 	                                <div class="form-group">
-	                                    <input class="form-control" placeholder="Password" name="password" type="password" value="">
+	                                    <input class="form-control" placeholder="Password" id="password" name="password" type="password" value="">
 	                                </div>
 	                                <div class="checkbox">
 	                                    <label>
-	                                        <input name="remember" type="checkbox" value="Remember Me">Remember Me
+	                                        <input name="remember" type="checkbox" id="remember" value="Remember Me">Remember Me
 	                                    </label>
 	                                </div>
 	                                <!-- Change this to a button or input when using this as a form -->
-	                                <input class="btn btn-lg btn-success btn-block" type="submit" name="submit" value="Login" />
+	                                <input class="btn btn-lg btn-success btn-block" type="submit" id="login" name="submit" value="Login" />
 	                            </fieldset>
 	                        </form>
 	                    </div>
@@ -115,4 +115,55 @@ if(isset ($_POST['submit'])) {
     <script src="dist/js/sb-admin-2.js"></script>
 
 </body>
+<script type="text/javascript">
+	
+	function setCookie(cname,cvalue,exdays) {
+	    var d = new Date();
+	    d.setTime(d.getTime() + (exdays*24*60*60*1000));
+	    var expires = "expires=" + d.toGMTString();
+	    document.cookie = cname+"="+cvalue+"; "+expires;
+	}
+
+	function getCookie(cname) {
+	    var name = cname + "=";
+	    var ca = document.cookie.split(';');
+	    for(var i=0; i<ca.length; i++) {
+	        var c = ca[i];
+	        while (c.charAt(0)==' ') c = c.substring(1);
+	        if (c.indexOf(name) == 0) {
+	            return c.substring(name.length, c.length);
+	        }
+	    }
+	    return "";
+	}
+
+	function checkCookie() {
+	    var user = getCookie("p_username");
+	    var pass = getCookie("p_username");
+	    if (user != "" || pass != "") {
+	        $("#user_name").val(user);
+	        $("#password").val(pass);
+	    } else {
+	       var us = $("#user_name").val();
+	       var pass = $("#password").val();
+	       setCookie("p_username", us, 30);
+	       setCookie("p_password", pass, 30);
+	    }
+	}
+/*
+	$("#login").click(function(){
+		if($('#remember').is(':checked')){
+			checkCookie();
+		}
+	});
+
+	$(document).ready(function(){
+		 var user = getCookie("p_username");
+	    if (user != "") {
+	        $("#user_name").val(user);
+	        $("#password").val(getCookie("p_password"));
+	    }
+	});
+*/
+</script>
 </html>

@@ -1,5 +1,6 @@
 <?php
 include_once('portal.cls.php');
+include_once('database.cls.php');
 if (isset($_POST['submit'])) {
 	switch($_POST['submit']){
 		case "commonAction":

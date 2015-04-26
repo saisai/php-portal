@@ -252,7 +252,8 @@ class DataBase{
 		return $options;
 	}
 
-	function emp_leave_total_details(){
+	function emp_leave_total_details($data){
+		$json = json_decode($data);
 		$sql = "SELECT code,
 				       name,
        				   total
