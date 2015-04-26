@@ -18,7 +18,7 @@ hrmsApp.controller('documentCtl', function ($scope, $timeout, $resource, ngTable
                     // set new data
                     $defer.resolve(data.result);
                     console.log(data.result);
-                }, 1000);
+                }, 10);
             });
         }
     });
