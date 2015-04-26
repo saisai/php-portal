@@ -33,7 +33,6 @@
                                                     </div>
                                                     <div class="col-sm-7"> 
                                                         <select class="form-control" id="course_type" data-rule-required="true" data-msg-required="Please enter course type">
-                                                            <?php echo $get_all_qualifications ?>
                                                         </select>
                                                     </div>
                                                 </div>
@@ -97,16 +96,16 @@
                                                     <div class="col-sm-12">
                                                         <label>Remarks</label>
                                                     
-                                                        <textarea class="form-control" rows="3" id="remarks"  ></textarea>
+                                                        <textarea class="form-control" rows="3" id="remarks"  ng-model="newqly.remarks"></textarea>
                                                     </div>
                                                 </div>
                                             </div>
                                         </form>    
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                            <button type="button" class="btn btn-primary" id="save_emp_qualification">Save changes</button>
+                                            <button type="button" class="btn btn-primary" id="save_emp_qualification" ng-click="saveqlfy()">Save changes</button>
                                         </div>
-                                    </div>
+                                    </div> 
                                     <!-- /.modal-content -->
                                 </div>
                                 <!-- /.modal-dialog -->

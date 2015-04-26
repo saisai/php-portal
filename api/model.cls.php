@@ -40,6 +40,21 @@ class Model {
         return $stmt->fetch(PDO::FETCH_ASSOC);
     }
 
+    public function create($data) {
+        $fields = array();
+        $values = array();
+        foreach ($data as $f => $v) {
+            $fields[] = $f;
+            $values[] = $v;
+        }
+        $sql = "INSERT INTO {$this->model} (" . 
+               implode(",",$fields). ") VALUES ('".
+               implode("','",$values) . "')";
+        //echo $sql;
+        $stmt = $this->conn->query($sql);
+        return true; //$stmt->rowCount();
+    }
+
     public function update($id, $data) {
         $updatefields = array();
         foreach ($data as $k => $v ) {

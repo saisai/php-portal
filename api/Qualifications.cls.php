@@ -13,4 +13,11 @@ class Qualifications {
     public function fetch_all($id, $filter) {
 
     }
+
+    public function create() {
+        $data = json_decode(file_get_contents("php://input"));
+        $qlfy = new QualificationModel;
+        $qlfy->create($data);
+        return array("msg"=>"Ok Updated");
+    }
 }

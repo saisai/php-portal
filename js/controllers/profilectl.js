@@ -13,6 +13,6 @@ hrmsApp.controller('profileCtl', function ($scope, $http) {
         $http.put('/portal/api/employee/M421-2014', $scope.profile_data).
         success(function(data, status, headers, config){
             console.log(data);
-        })
+        });
     };
 });
