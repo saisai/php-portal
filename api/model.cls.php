@@ -39,6 +39,25 @@ class Model {
         $stmt = $this->conn->query($sql);
         return $stmt->fetch(PDO::FETCH_ASSOC);
     }
+
+    public function update($id, $data) {
+        $updatefields = array();
+        foreach ($data as $k => $v ) {
+            $updatefields[] = "{$k} = '{$v}'";
+        } 
+
+        $sqlarr = array("UPDATE",
+            $this->model,
+            "SET",
+            implode(',',$updatefields),
+            "WHERE",
+            "{$this->primary}='{$id}'"
+        );
+        $sql = implode(" ",$sqlarr);
+        //echo $sql;
+        $stmt = $this->conn->query($sql);
+        return $stmt->rowCount();
+    }
 }
 
 class EmployeeModel extends Model {
@@ -62,6 +81,7 @@ class EmployeeModel extends Model {
     public function __construct() {
         parent::__construct($this->model,$this->fields,'emp_id');
     }
+
 }
 
 class DocumentsModel extends Model {
