@@ -16,7 +16,7 @@ hrmsApp.config(
             {controller: 'documentCtl',templateUrl: 'templates/documents.html'}
         ).
         when('/qualification',
-            {controller: 'profileCtl',templateUrl: 'templates/qualification.html'}
+            {controller: 'qualificationctl',templateUrl: 'templates/qualification.html'}
         ).
         when('/experience',
             {controller: 'profileCtl',templateUrl: 'templates/experience.html'}
