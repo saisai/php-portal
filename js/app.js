@@ -15,7 +15,7 @@ hrmsApp.config(
         when('/documents',
             {controller: 'documentCtl',templateUrl: 'templates/documents.html'}
         ).
-        when('/qualification',
+        when('/qualifications',
             {controller: 'qualificationctl',templateUrl: 'templates/qualification.html'}
         ).
         when('/experience',

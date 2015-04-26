@@ -29,5 +29,6 @@
     <script src="js/app.js"></script>
     <script src="js/controllers/profilectl.js"></script>
     <script src="js/controllers/documentctl.js"></script>
+    <script src="js/controllers/qualificationctl.js"></script>
     <!-- end of angularjs scripts -->    
 </html>
