@@ -79,7 +79,8 @@ class EmployeeModel extends Model {
     var $model = 'employee';
     var $fields = array(
         'slno', 'center_code', 'id as emp_id', 'name', 'middle_name', 'surname',
-        'short_code', 'father_name', 'mother_name', 'date_format(DOB,\'%d-%m-%Y\')as DOB', 'year_of_passing', 'sex',
+        'short_code', 'father_name', 'mother_name', 
+        'date_format(DOB,\'%d-%m-%Y\')as DOB', 'year_of_passing', 'sex',
         'martial_status', 'department', 'designation', 'client_name', 'project_name',
         'passport_no', 'passport_doi', 'passport_doe', 'bc_verfication', 'bc_remarks',
         'blood_group', 'appointment_type', 'date_format(doj,\'%d-%m-%Y\')as doj', 'dol', 'leaving_reason',

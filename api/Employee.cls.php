@@ -15,6 +15,5 @@ class Employee {
         $emp = new EmployeeModel;
         $emp->update($id, $data);
         return array("msg"=>"Ok Updated");
-
     }
 }
